@@ -10,3 +10,4 @@ $config['token1'] = "S3M";
 $config['token2'] = "S3M";
 $config['recaptcha_key'] = "";
 $config['recaptcha_secret'] = "";
+$config['recaptcha_secret2'] = "";
