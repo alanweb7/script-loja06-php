@@ -1,0 +1,52 @@
+{
+    "packages": [
+        {
+            "name": "edson-nascimento/cielo-link-php",
+            "version": "v1.0.0",
+            "version_normalized": "1.0.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/edson-nascimento/cielo-link-php.git",
+                "reference": "ddbc5ae14273c585abcf35a4eb0111812fe28414"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/edson-nascimento/cielo-link-php/zipball/ddbc5ae14273c585abcf35a4eb0111812fe28414",
+                "reference": "ddbc5ae14273c585abcf35a4eb0111812fe28414",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6.0"
+            },
+            "require-dev": {
+                "kint-php/kint": "^1.0"
+            },
+            "time": "2019-07-11T14:15:24+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "CieloLink\\": "src//CieloLink"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Edson Nascimento",
+                    "email": "edson27bn@gmail.com"
+                }
+            ],
+            "description": "SDK php para integração com a API de Pagamento por Link Cielo new commerce",
+            "homepage": "https://developercielo.github.io/manual/linkdepagamentos5",
+            "support": {
+                "issues": "https://github.com/edson-nascimento/cielo-link-php/issues",
+                "source": "https://github.com/edson-nascimento/cielo-link-php/tree/v1.0.0"
+            },
+            "install-path": "../edson-nascimento/cielo-link-php"
+        }
+    ],
+    "dev": true
+}

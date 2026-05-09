@@ -1,0 +1,77 @@
+[24-Jun-2023 15:41:40 Brazil/East] PHP Notice:  Undefined variable: data_pedido in /home/sitess3m/public_html/loja06/views/htm_carrinho.php on line 1705
+[24-Jun-2023 15:41:40 Brazil/East] PHP Notice:  Trying to get property 'codigo' of non-object in /home/sitess3m/public_html/loja06/views/htm_carrinho.php on line 1705
+[24-Jun-2023 15:41:40 Brazil/East] PHP Notice:  Undefined variable: data_pedido in /home/sitess3m/public_html/loja06/views/htm_carrinho.php on line 1738
+[24-Jun-2023 15:41:40 Brazil/East] PHP Notice:  Trying to get property 'frete_balcao' of non-object in /home/sitess3m/public_html/loja06/views/htm_carrinho.php on line 1738
+[24-Jun-2023 17:39:11 Brazil/East] PHP Notice:  Trying to get property 'semestoque' of non-object in /home/sitess3m/public_html/loja06/controllers/controller_index.php on line 3541
+[26-Jun-2023 17:11:53 Brazil/East] PHP Notice:  Undefined variable: data_pedido in /home/sitess3m/public_html/loja06/views/htm_carrinho.php on line 1705
+[26-Jun-2023 17:11:53 Brazil/East] PHP Notice:  Trying to get property 'codigo' of non-object in /home/sitess3m/public_html/loja06/views/htm_carrinho.php on line 1705
+[26-Jun-2023 17:11:53 Brazil/East] PHP Notice:  Undefined variable: data_pedido in /home/sitess3m/public_html/loja06/views/htm_carrinho.php on line 1738
+[26-Jun-2023 17:11:53 Brazil/East] PHP Notice:  Trying to get property 'frete_balcao' of non-object in /home/sitess3m/public_html/loja06/views/htm_carrinho.php on line 1738
+[12-Jul-2023 10:31:44 Brazil/East] PHP Notice:  Trying to get property 'semestoque' of non-object in /home/sitess3m/public_html/loja06/controllers/controller_index.php on line 3541
+[04-Jan-2024 23:54:41 Brazil/East] PHP Notice:  Undefined variable: data_pedido in /home/sitess3m/public_html/loja06/views/htm_carrinho.php on line 1705
+[04-Jan-2024 23:54:41 Brazil/East] PHP Notice:  Trying to get property 'codigo' of non-object in /home/sitess3m/public_html/loja06/views/htm_carrinho.php on line 1705
+[04-Jan-2024 23:54:41 Brazil/East] PHP Notice:  Undefined variable: data_pedido in /home/sitess3m/public_html/loja06/views/htm_carrinho.php on line 1738
+[04-Jan-2024 23:54:41 Brazil/East] PHP Notice:  Trying to get property 'frete_balcao' of non-object in /home/sitess3m/public_html/loja06/views/htm_carrinho.php on line 1738
+[10-Jan-2024 21:54:31 Brazil/East] PHP Notice:  Undefined variable: data_pedido in /home/sitess3m/public_html/loja06/views/htm_carrinho.php on line 1705
+[10-Jan-2024 21:54:31 Brazil/East] PHP Notice:  Trying to get property 'codigo' of non-object in /home/sitess3m/public_html/loja06/views/htm_carrinho.php on line 1705
+[10-Jan-2024 21:54:31 Brazil/East] PHP Notice:  Undefined variable: data_pedido in /home/sitess3m/public_html/loja06/views/htm_carrinho.php on line 1738
+[10-Jan-2024 21:54:31 Brazil/East] PHP Notice:  Trying to get property 'frete_balcao' of non-object in /home/sitess3m/public_html/loja06/views/htm_carrinho.php on line 1738
+[30-Jun-2024 19:59:18 Brazil/East] PHP Notice:  Trying to get property 'semestoque' of non-object in /home/sitess3m/public_html/loja06/controllers/controller_index.php on line 3541
+[22-Aug-2024 10:57:37 Brazil/East] PHP Notice:  Undefined variable: data_pedido in /home/sitess3m/public_html/loja06/views/htm_carrinho.php on line 1705
+[22-Aug-2024 10:57:37 Brazil/East] PHP Notice:  Trying to get property 'codigo' of non-object in /home/sitess3m/public_html/loja06/views/htm_carrinho.php on line 1705
+[22-Aug-2024 10:57:37 Brazil/East] PHP Notice:  Undefined variable: data_pedido in /home/sitess3m/public_html/loja06/views/htm_carrinho.php on line 1738
+[22-Aug-2024 10:57:37 Brazil/East] PHP Notice:  Trying to get property 'frete_balcao' of non-object in /home/sitess3m/public_html/loja06/views/htm_carrinho.php on line 1738
+[12-Sep-2024 19:03:24 Brazil/East] PHP Notice:  Trying to get property 'semestoque' of non-object in /home/sitess3m/public_html/loja06/controllers/controller_index.php on line 3541
+[08-Nov-2024 02:11:53 Brazil/East] PHP Notice:  Undefined variable: data_pedido in /home/sitess3m/public_html/loja06/views/htm_carrinho.php on line 1705
+[08-Nov-2024 02:11:53 Brazil/East] PHP Notice:  Trying to get property 'codigo' of non-object in /home/sitess3m/public_html/loja06/views/htm_carrinho.php on line 1705
+[08-Nov-2024 02:11:53 Brazil/East] PHP Notice:  Undefined variable: data_pedido in /home/sitess3m/public_html/loja06/views/htm_carrinho.php on line 1738
+[08-Nov-2024 02:11:53 Brazil/East] PHP Notice:  Trying to get property 'frete_balcao' of non-object in /home/sitess3m/public_html/loja06/views/htm_carrinho.php on line 1738
+[10-Nov-2024 13:17:13 Brazil/East] PHP Notice:  Undefined variable: data_pedido in /home/sitess3m/public_html/loja06/views/htm_carrinho.php on line 1705
+[10-Nov-2024 13:17:13 Brazil/East] PHP Notice:  Trying to get property 'codigo' of non-object in /home/sitess3m/public_html/loja06/views/htm_carrinho.php on line 1705
+[10-Nov-2024 13:17:13 Brazil/East] PHP Notice:  Undefined variable: data_pedido in /home/sitess3m/public_html/loja06/views/htm_carrinho.php on line 1738
+[10-Nov-2024 13:17:13 Brazil/East] PHP Notice:  Trying to get property 'frete_balcao' of non-object in /home/sitess3m/public_html/loja06/views/htm_carrinho.php on line 1738
+[25-Jan-2025 18:49:32 Brazil/East] PHP Notice:  Undefined index: id in /home/sitess3m/public_html/loja06/views/htm_index.php on line 125
+[25-Jan-2025 18:49:32 Brazil/East] PHP Notice:  Undefined index: conteudo in /home/sitess3m/public_html/loja06/views/htm_index.php on line 126
+[25-Jan-2025 18:49:32 Brazil/East] PHP Notice:  Undefined index: tipo in /home/sitess3m/public_html/loja06/views/htm_index.php on line 127
+[25-Jan-2025 18:49:32 Brazil/East] PHP Warning:  include(htm_conteudo_.php): failed to open stream: No such file or directory in /home/sitess3m/public_html/loja06/views/htm_index.php on line 127
+[25-Jan-2025 18:49:32 Brazil/East] PHP Warning:  include(): Failed opening 'htm_conteudo_.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/sitess3m/public_html/loja06/views/htm_index.php on line 127
+[26-Jan-2025 04:34:28 Brazil/East] PHP Notice:  Undefined index: id in /home/sitess3m/public_html/loja06/views/htm_index.php on line 125
+[26-Jan-2025 04:34:28 Brazil/East] PHP Notice:  Undefined index: conteudo in /home/sitess3m/public_html/loja06/views/htm_index.php on line 126
+[26-Jan-2025 04:34:28 Brazil/East] PHP Notice:  Undefined index: tipo in /home/sitess3m/public_html/loja06/views/htm_index.php on line 127
+[26-Jan-2025 04:34:28 Brazil/East] PHP Warning:  include(htm_conteudo_.php): failed to open stream: No such file or directory in /home/sitess3m/public_html/loja06/views/htm_index.php on line 127
+[26-Jan-2025 04:34:28 Brazil/East] PHP Warning:  include(): Failed opening 'htm_conteudo_.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/sitess3m/public_html/loja06/views/htm_index.php on line 127
+[27-Jan-2025 18:42:04 Brazil/East] PHP Notice:  Undefined index: id in /home/sitess3m/public_html/loja06/views/htm_index.php on line 125
+[27-Jan-2025 18:42:04 Brazil/East] PHP Notice:  Undefined index: conteudo in /home/sitess3m/public_html/loja06/views/htm_index.php on line 126
+[27-Jan-2025 18:42:04 Brazil/East] PHP Notice:  Undefined index: tipo in /home/sitess3m/public_html/loja06/views/htm_index.php on line 127
+[27-Jan-2025 18:42:04 Brazil/East] PHP Warning:  include(htm_conteudo_.php): failed to open stream: No such file or directory in /home/sitess3m/public_html/loja06/views/htm_index.php on line 127
+[27-Jan-2025 18:42:04 Brazil/East] PHP Warning:  include(): Failed opening 'htm_conteudo_.php' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home/sitess3m/public_html/loja06/views/htm_index.php on line 127
+[27-Jan-2025 21:25:48 Brazil/East] PHP Warning:  include(htm_conteudo_.php): failed to open stream: No such file or directory in /home/sitess3m/public_html/loja06/views/htm_index.php on line 127
+[27-Jan-2025 21:25:48 Brazil/East] PHP Warning:  include(htm_conteudo_.php): failed to open stream: No such file or directory in /home/sitess3m/public_html/loja06/views/htm_index.php on line 127
+[27-Jan-2025 21:25:48 Brazil/East] PHP Warning:  include(): Failed opening 'htm_conteudo_.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/sitess3m/public_html/loja06/views/htm_index.php on line 127
+[29-Jan-2025 19:46:53 Brazil/East] PHP Warning:  include(htm_conteudo_.php): failed to open stream: No such file or directory in /home/sitess3m/public_html/loja06/views/htm_index.php on line 127
+[29-Jan-2025 19:46:53 Brazil/East] PHP Warning:  include(htm_conteudo_.php): failed to open stream: No such file or directory in /home/sitess3m/public_html/loja06/views/htm_index.php on line 127
+[29-Jan-2025 19:46:53 Brazil/East] PHP Warning:  include(): Failed opening 'htm_conteudo_.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/sitess3m/public_html/loja06/views/htm_index.php on line 127
+[29-Jan-2025 22:24:48 Brazil/East] PHP Warning:  include(htm_conteudo_.php): failed to open stream: No such file or directory in /home/sitess3m/public_html/loja06/views/htm_index.php on line 127
+[29-Jan-2025 22:24:48 Brazil/East] PHP Warning:  include(htm_conteudo_.php): failed to open stream: No such file or directory in /home/sitess3m/public_html/loja06/views/htm_index.php on line 127
+[29-Jan-2025 22:24:48 Brazil/East] PHP Warning:  include(): Failed opening 'htm_conteudo_.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/sitess3m/public_html/loja06/views/htm_index.php on line 127
+[02-Feb-2025 23:50:44 Brazil/East] PHP Warning:  include(htm_conteudo_.php): failed to open stream: No such file or directory in /home/sitess3m/public_html/loja06/views/htm_index.php on line 127
+[02-Feb-2025 23:50:44 Brazil/East] PHP Warning:  include(htm_conteudo_.php): failed to open stream: No such file or directory in /home/sitess3m/public_html/loja06/views/htm_index.php on line 127
+[02-Feb-2025 23:50:44 Brazil/East] PHP Warning:  include(): Failed opening 'htm_conteudo_.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/sitess3m/public_html/loja06/views/htm_index.php on line 127
+[03-Feb-2025 18:59:18 Brazil/East] PHP Warning:  include(htm_conteudo_.php): failed to open stream: No such file or directory in /home/sitess3m/public_html/loja06/views/htm_index.php on line 127
+[03-Feb-2025 18:59:18 Brazil/East] PHP Warning:  include(htm_conteudo_.php): failed to open stream: No such file or directory in /home/sitess3m/public_html/loja06/views/htm_index.php on line 127
+[03-Feb-2025 18:59:18 Brazil/East] PHP Warning:  include(): Failed opening 'htm_conteudo_.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/sitess3m/public_html/loja06/views/htm_index.php on line 127
+[06-Feb-2025 02:19:26 Brazil/East] PHP Warning:  include(htm_conteudo_.php): failed to open stream: No such file or directory in /home/sitess3m/public_html/loja06/views/htm_index.php on line 127
+[06-Feb-2025 02:19:26 Brazil/East] PHP Warning:  include(htm_conteudo_.php): failed to open stream: No such file or directory in /home/sitess3m/public_html/loja06/views/htm_index.php on line 127
+[06-Feb-2025 02:19:26 Brazil/East] PHP Warning:  include(): Failed opening 'htm_conteudo_.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/sitess3m/public_html/loja06/views/htm_index.php on line 127
+[06-Feb-2025 12:24:30 Brazil/East] PHP Warning:  include(htm_conteudo_.php): failed to open stream: No such file or directory in /home/sitess3m/public_html/loja06/views/htm_index.php on line 127
+[06-Feb-2025 12:24:30 Brazil/East] PHP Warning:  include(htm_conteudo_.php): failed to open stream: No such file or directory in /home/sitess3m/public_html/loja06/views/htm_index.php on line 127
+[06-Feb-2025 12:24:30 Brazil/East] PHP Warning:  include(): Failed opening 'htm_conteudo_.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/sitess3m/public_html/loja06/views/htm_index.php on line 127
+[06-Feb-2025 13:32:43 Brazil/East] PHP Warning:  include(htm_conteudo_.php): failed to open stream: No such file or directory in /home/sitess3m/public_html/loja06/views/htm_index.php on line 127
+[06-Feb-2025 13:32:43 Brazil/East] PHP Warning:  include(htm_conteudo_.php): failed to open stream: No such file or directory in /home/sitess3m/public_html/loja06/views/htm_index.php on line 127
+[06-Feb-2025 13:32:43 Brazil/East] PHP Warning:  include(): Failed opening 'htm_conteudo_.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/sitess3m/public_html/loja06/views/htm_index.php on line 127
+[06-Feb-2025 21:33:24 Brazil/East] PHP Warning:  include(htm_conteudo_.php): failed to open stream: No such file or directory in /home/sitess3m/public_html/loja06/views/htm_index.php on line 127
+[06-Feb-2025 21:33:24 Brazil/East] PHP Warning:  include(htm_conteudo_.php): failed to open stream: No such file or directory in /home/sitess3m/public_html/loja06/views/htm_index.php on line 127
+[06-Feb-2025 21:33:24 Brazil/East] PHP Warning:  include(): Failed opening 'htm_conteudo_.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/sitess3m/public_html/loja06/views/htm_index.php on line 127
+[06-Feb-2025 21:40:57 Brazil/East] PHP Warning:  include(htm_conteudo_.php): failed to open stream: No such file or directory in /home/sitess3m/public_html/loja06/views/htm_index.php on line 127
+[06-Feb-2025 21:40:57 Brazil/East] PHP Warning:  include(htm_conteudo_.php): failed to open stream: No such file or directory in /home/sitess3m/public_html/loja06/views/htm_index.php on line 127
+[06-Feb-2025 21:40:57 Brazil/East] PHP Warning:  include(): Failed opening 'htm_conteudo_.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/sitess3m/public_html/loja06/views/htm_index.php on line 127
