@@ -30,8 +30,10 @@ Ajustes feitos:
 
 - `sistema/_views/htm_entrar.php`
   - Corrigidos os caminhos dos arquivos JS (jQuery, Bootstrap, iCheck) para apontar para arquivos existentes no sistema admin.
-  - Agora usa `<?=LAYOUT?>js/jquery.js`, `<?=LAYOUT?>bootstrap/js/bootstrap.min.js`, `<?=LAYOUT?>plugins/iCheck/icheck.min.js`.
-  - Isso resolve os erros de "Unexpected token '<'" no console, que ocorriam porque os caminhos estavam incorretos e retornavam HTML de erro em vez do JS.
+  - jQuery: alterado para `views/js/jquery-2.2.4.min.js` (versão mais recente e sem erros de sintaxe).
+  - Bootstrap: `sistema/_views/bootstrap/js/bootstrap.min.js`
+  - iCheck: `sistema/_views/plugins/iCheck/icheck.min.js`
+  - Isso resolve os erros de "Unexpected token '<'" e "Invalid or unexpected token" no console, que ocorriam porque os caminhos estavam incorretos ou os arquivos estavam corrompidos.
 
 ## Por que isso era relevante
 
@@ -46,6 +48,25 @@ Ajustes feitos:
 - `sistema/mercadopago_retorno/index.php`
 - `sistema/mercadopago_retorno/index_pix.php`
 - `sistema/_views/htm_entrar.php`
+
+### 4. Criação do usuário admin
+
+- Execute o script `criar_admin.php` no navegador (ex: http://localhost/script-loja06/criar_admin.php) para inserir o usuário admin padrão.
+- Credenciais: usuário `admin`, senha `123456`.
+- O script usa MD5 para hash, conforme esperado pelo sistema.
+
+### 5. Teste do login
+
+- Acesse http://localhost/script-loja06/sistema/ (ou o domínio configurado).
+- Use as credenciais acima para fazer login.
+- Se houver erros, verifique os logs de erro do PHP (habilitados no _config.php).
+
+### 6. Problemas resolvidos
+
+- Compatibilidade com PHP 8.3: removidas chamadas para `get_magic_quotes_gpc()` deprecated.
+- Campos do formulário de login: corrigidos para `login_usuario` e `login_senha`.
+- Caminhos dos JS: corrigidos para arquivos existentes.
+- Erros de sintaxe no jQuery: resolvido usando versão mais recente sem corrupção.
 
 ## Recomendações
 
