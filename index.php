@@ -10,18 +10,18 @@ define("USUARIO", $config['USUARIO']);
 define("SENHA", $config['SENHA']);
 define("BANCO", $config['BANCO']);
 
-if($config['SSL']){	
+if($config['SSL']){
 	$config_dominio = "https://".$_SERVER['HTTP_HOST']."/";
-	if($config['PASTA']){
+	if(!empty($config['PASTA'])){
 		$config_dominio = $config_dominio.$config['PASTA']."/";
 	}
 	if(!isset($_SERVER['HTTPS'])){
 		header('Location: '.$config_dominio);
 		exit;
 	}
-} else {	
+} else {
 	$config_dominio = "http://".$_SERVER['HTTP_HOST']."/";
-	if($config['PASTA']){
+	if(!empty($config['PASTA'])){
 		$config_dominio = $config_dominio.$config['PASTA']."/";
 	}
 }

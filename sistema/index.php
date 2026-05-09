@@ -11,7 +11,7 @@ define("SENHA", $config['SENHA']);
 define("BANCO", $config['BANCO']);
 
 $config_dominio = (isset($_SERVER['HTTPS']) ? "https" : "http")."://" .$_SERVER['HTTP_HOST']."/";
-if($config['PASTA']){
+if(!empty($config['PASTA'])){
 	$config_dominio = $config_dominio.$config['PASTA']."/";
 }
 
