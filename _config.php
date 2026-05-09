@@ -1,4 +1,9 @@
 ﻿<?php
+// Configurações para mostrar erros na tela
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+
 $config = array();
 $config['SERVIDOR'] = "localhost";
 $config['BANCO'] = "u861801657_cher_loja";
