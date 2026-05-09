@@ -51,6 +51,7 @@ Ajustes feitos:
 
 - Testar o login administrativo novamente após o deploy - agora deve aceitar usuário e senha corretamente.
 - Se ainda der "Usuário ou senha incorretos!", verificar se há usuários criados na tabela `adm_usuario` do banco de dados. O sistema usa MD5 para armazenar usuário e senha.
+- **Para criar usuário admin padrão**: Execute o arquivo `criar_admin.php` no navegador (ex: https://seudominio.com/criar_admin.php). Isso criará um usuário com login "admin" e senha "123456".
 - Verificar se os erros de JavaScript no console desapareceram.
 - Verificar o webhook do Mercado Pago se o sistema utiliza esses endpoints.
 - Continuar usando `display_errors` apenas em ambiente de desenvolvimento para diagnosticar problemas.
