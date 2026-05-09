@@ -1,0 +1,154 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - link [ref=e4] [cursor=pointer]:
+      - /url: https://loja.cherstore.com.br/sistema/
+      - img [ref=e6]
+    - navigation [ref=e7]:
+      - button "" [ref=e8] [cursor=pointer]:
+        - generic [ref=e9]: 
+      - list [ref=e11]:
+        - listitem [ref=e12]:
+          - link "Administrador" [ref=e13] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e14]
+            - text: Administrador
+          - text:  
+  - complementary [ref=e15]:
+    - generic [ref=e16]:
+      - textbox [ref=e18]
+      - list [ref=e19]:
+        - listitem [ref=e20]: NAVEGAÇÃO
+        - listitem [ref=e21]:
+          - link " Relatórios" [ref=e22] [cursor=pointer]:
+            - /url: https://loja.cherstore.com.br/sistema/relatorios
+            - generic [ref=e23]: 
+            - text: Relatórios
+        - listitem [ref=e24]:
+          - link " Pedidos" [ref=e25] [cursor=pointer]:
+            - /url: https://loja.cherstore.com.br/sistema/pedidos
+            - generic [ref=e26]: 
+            - text: Pedidos
+        - listitem [ref=e27]:
+          - link " Produtos" [ref=e28] [cursor=pointer]:
+            - /url: https://loja.cherstore.com.br/sistema/produtos
+            - generic [ref=e29]: 
+            - text: Produtos
+        - listitem [ref=e30]:
+          - link " Cupom de Desconto" [ref=e31] [cursor=pointer]:
+            - /url: https://loja.cherstore.com.br/sistema/cupom
+            - generic [ref=e32]: 
+            - text: Cupom de Desconto
+        - listitem [ref=e33]:
+          - link " Formas de Pagamento" [ref=e34] [cursor=pointer]:
+            - /url: https://loja.cherstore.com.br/sistema/formas_pagamento
+            - generic [ref=e35]: 
+            - text: Formas de Pagamento
+        - listitem [ref=e36]:
+          - link " Formas de Entrega" [ref=e37] [cursor=pointer]:
+            - /url: https://loja.cherstore.com.br/sistema/entrega
+            - generic [ref=e38]: 
+            - text: Formas de Entrega
+        - listitem [ref=e39]:
+          - link " Banners" [ref=e40] [cursor=pointer]:
+            - /url: https://loja.cherstore.com.br/sistema/banners
+            - generic [ref=e41]: 
+            - text: Banners
+        - listitem [ref=e42]:
+          - link " Cadastros" [ref=e43] [cursor=pointer]:
+            - /url: https://loja.cherstore.com.br/sistema/cadastro
+            - generic [ref=e44]: 
+            - text: Cadastros
+        - listitem [ref=e45]:
+          - link " Características" [ref=e46] [cursor=pointer]:
+            - /url: https://loja.cherstore.com.br/sistema/caracteristicas
+            - generic [ref=e47]: 
+            - text: Características
+        - listitem [ref=e48]:
+          - link " Textos" [ref=e49] [cursor=pointer]:
+            - /url: https://loja.cherstore.com.br/sistema/conteudos
+            - generic [ref=e50]: 
+            - text: Textos
+        - listitem [ref=e51]:
+          - link " Configurações" [ref=e52] [cursor=pointer]:
+            - /url: https://loja.cherstore.com.br/sistema/config
+            - generic [ref=e53]: 
+            - text: Configurações
+        - listitem [ref=e54]:
+          - link " Conteúdos" [ref=e55] [cursor=pointer]:
+            - /url: https://loja.cherstore.com.br/sistema/conteudos_blocos
+            - generic [ref=e56]: 
+            - text: Conteúdos
+        - listitem [ref=e57]:
+          - link " Destaques" [ref=e58] [cursor=pointer]:
+            - /url: https://loja.cherstore.com.br/sistema/destaques
+            - generic [ref=e59]: 
+            - text: Destaques
+        - listitem [ref=e60]:
+          - link " Dúvidas" [ref=e61] [cursor=pointer]:
+            - /url: https://loja.cherstore.com.br/sistema/duvidas
+            - generic [ref=e62]: 
+            - text: Dúvidas
+        - listitem [ref=e63]:
+          - link " Imagens" [ref=e64] [cursor=pointer]:
+            - /url: https://loja.cherstore.com.br/sistema/imagens
+            - generic [ref=e65]: 
+            - text: Imagens
+        - listitem [ref=e66]:
+          - link " Layout - Itens" [ref=e67] [cursor=pointer]:
+            - /url: https://loja.cherstore.com.br/sistema/layout_itens
+            - generic [ref=e68]: 
+            - text: Layout - Itens
+        - listitem [ref=e69]:
+          - link " Layout - Páginas" [ref=e70] [cursor=pointer]:
+            - /url: https://loja.cherstore.com.br/sistema/layout
+            - generic [ref=e71]: 
+            - text: Layout - Páginas
+        - listitem [ref=e72]:
+          - link " Layout - Rodapés" [ref=e73] [cursor=pointer]:
+            - /url: https://loja.cherstore.com.br/sistema/rodapes
+            - generic [ref=e74]: 
+            - text: Layout - Rodapés
+        - listitem [ref=e75]:
+          - link " Layout - Topos" [ref=e76] [cursor=pointer]:
+            - /url: https://loja.cherstore.com.br/sistema/topos
+            - generic [ref=e77]: 
+            - text: Layout - Topos
+        - listitem [ref=e78]:
+          - link " Redes Sociais" [ref=e79] [cursor=pointer]:
+            - /url: https://loja.cherstore.com.br/sistema/redes_sociais
+            - generic [ref=e80]: 
+            - text: Redes Sociais
+        - listitem [ref=e81]:
+          - link " Usuários" [ref=e82] [cursor=pointer]:
+            - /url: https://loja.cherstore.com.br/sistema/usuarios
+            - generic [ref=e83]: 
+            - text: Usuários
+  - generic [ref=e84]:
+    - heading "Relatórios" [level=1] [ref=e86]: Relatórios
+    - generic [ref=e90]:
+      - generic [ref=e93]: "Selecione o periodo e status para gerar o relatório de pedidos:"
+      - generic [ref=e94]:
+        - generic [ref=e97]:
+          - generic [ref=e99]: 
+          - textbox [ref=e100]: 09/04/2026
+        - generic [ref=e103]:
+          - generic [ref=e105]: 
+          - textbox [ref=e106]: 09/05/2026
+        - combobox [ref=e109]:
+          - option "Todos"
+          - option "Incompleto"
+          - option "Aguardando Pagamento" [selected]:  Aguardando Pagamento
+          - option "Pagamento Confirmado"
+          - option "Verificação de arquivos"
+          - option "Arquivo com problema"
+          - option "Criando/Alterando arte"
+          - option "Em produção"
+          - option "Expedição"
+          - option "Em transporte"
+          - option "Disponível para retirada"
+          - option "Produto Entregue":  Produto Entregue
+          - option "Cancelado":  Cancelado
+        - button "GERAR" [ref=e112] [cursor=pointer]
+  - contentinfo [ref=e113]:
+    - link "2026 Todos os direitos reservados." [ref=e114] [cursor=pointer]:
+      - /url: ""

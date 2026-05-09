@@ -1,0 +1,7 @@
+[     195ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ https://loja.cherstore.com.br/sistema/autenticacao:0
+[    7629ms] ReferenceError: moment is not defined
+    at https://loja.cherstore.com.br/sistema/_views/plugins/daterangepicker/daterangepicker.js:32:61
+    at https://loja.cherstore.com.br/sistema/_views/plugins/daterangepicker/daterangepicker.js:35:2
+[   64445ms] ReferenceError: moment is not defined
+    at https://loja.cherstore.com.br/sistema/_views/plugins/daterangepicker/daterangepicker.js:32:61
+    at https://loja.cherstore.com.br/sistema/_views/plugins/daterangepicker/daterangepicker.js:35:2

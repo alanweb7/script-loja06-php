@@ -4,7 +4,16 @@
       "Bash(git add *)",
       "Bash(git commit -m ' *)",
       "Bash(git push *)",
-      "Bash(gh pr create --title 'FIX: corrige erros de JS na tela de login do painel admin' --body ' *)"
+      "Bash(gh pr create --title 'FIX: corrige erros de JS na tela de login do painel admin' --body ' *)",
+      "mcp__Claude_in_Chrome__tabs_context_mcp",
+      "mcp__plugin_playwright_playwright__browser_navigate",
+      "mcp__plugin_playwright_playwright__browser_console_messages",
+      "mcp__plugin_playwright_playwright__browser_fill_form",
+      "mcp__plugin_playwright_playwright__browser_click",
+      "mcp__plugin_playwright_playwright__browser_take_screenshot",
+      "mcp__plugin_playwright_playwright__browser_snapshot",
+      "mcp__plugin_playwright_playwright__browser_handle_dialog",
+      "Bash(git commit *)"
     ]
   }
 }

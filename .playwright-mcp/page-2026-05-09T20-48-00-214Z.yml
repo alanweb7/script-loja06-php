@@ -1,0 +1,15 @@
+- generic [ref=e2]:
+  - img [ref=e4]
+  - generic [ref=e5]:
+    - paragraph [ref=e6]
+    - generic [ref=e7]:
+      - generic [ref=e8]:
+        - textbox "Usuário" [ref=e9]
+        - generic: 
+      - generic [ref=e10]:
+        - textbox "Senha" [ref=e11]
+        - generic: 
+      - generic [ref=e12]:
+        - link "Esqueci minha senha!" [ref=e15] [cursor=pointer]:
+          - /url: https://loja.cherstore.com.br/sistema/recuperar
+        - button "Entrar" [ref=e17] [cursor=pointer]
