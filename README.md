@@ -29,7 +29,8 @@ Ajustes feitos:
 ### 3. Correção de caminhos dos arquivos JavaScript
 
 - `sistema/_views/htm_entrar.php`
-  - Corrigidos os caminhos dos arquivos JS (jQuery, Bootstrap, iCheck) para apontar para arquivos existentes no sistema.
+  - Corrigidos os caminhos dos arquivos JS (jQuery, Bootstrap, iCheck) para apontar para arquivos existentes no sistema admin.
+  - Agora usa `<?=LAYOUT?>js/jquery.js`, `<?=LAYOUT?>bootstrap/js/bootstrap.min.js`, `<?=LAYOUT?>plugins/iCheck/icheck.min.js`.
   - Isso resolve os erros de "Unexpected token '<'" no console, que ocorriam porque os caminhos estavam incorretos e retornavam HTML de erro em vez do JS.
 
 ## Por que isso era relevante
@@ -49,6 +50,7 @@ Ajustes feitos:
 ## Recomendações
 
 - Testar o login administrativo novamente após o deploy - agora deve aceitar usuário e senha corretamente.
+- Se ainda der "Usuário ou senha incorretos!", verificar se há usuários criados na tabela `adm_usuario` do banco de dados. O sistema usa MD5 para armazenar usuário e senha.
 - Verificar se os erros de JavaScript no console desapareceram.
 - Verificar o webhook do Mercado Pago se o sistema utiliza esses endpoints.
 - Continuar usando `display_errors` apenas em ambiente de desenvolvimento para diagnosticar problemas.

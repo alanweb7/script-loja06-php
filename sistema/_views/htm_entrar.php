@@ -56,9 +56,9 @@
   </div>
   <!-- /.login-box -->
 
-  <script src="<?=DOMINIO?>views/js/jquery-2.2.4.min.js"></script>
-  <script src="<?=DOMINIO?>sistema/_views/bootstrap/js/bootstrap.min.js"></script>
-  <script src="<?=DOMINIO?>sistema/_views/plugins/iCheck/icheck.min.js"></script>
+  <script src="<?=LAYOUT?>js/jquery.js"></script>
+  <script src="<?=LAYOUT?>bootstrap/js/bootstrap.min.js"></script>
+  <script src="<?=LAYOUT?>plugins/iCheck/icheck.min.js"></script>
   <script type="text/javascript">
     $('input').iCheck({
       checkboxClass: 'icheckbox_square-blue',
@@ -66,7 +66,7 @@
     });
   </script>
 
-  <script src="<?=DOMINIO?>sistema/_views/js/ajuda.js"></script>
+  <script src="<?=LAYOUT?>js/ajuda.js"></script>
 
 </body>
 </html>
