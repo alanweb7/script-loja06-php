@@ -57,7 +57,7 @@
 				<?php
 
 				$conteudo_coluna = $value_layout['coluna1'];
-				if($conteudo_coluna['tipo'] == 'topo'){
+				if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'topo'){
 
 					$conteudo_id = $conteudo_coluna['id'];
 					$conteudo_sessao = $conteudo_coluna['conteudo'];
@@ -79,7 +79,7 @@
 					<?php
 
 					$conteudo_coluna = $value_layout['coluna1'];
-					if($conteudo_coluna['tipo'] == 'topo'){
+					if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'topo'){
 
 						$conteudo_id = $conteudo_coluna['id'];
 						$conteudo_sessao = $conteudo_coluna['conteudo'];
@@ -93,7 +93,7 @@
 					<?php
 
 					$conteudo_coluna = $value_layout['coluna2'];
-					if($conteudo_coluna['tipo'] == 'topo'){
+					if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'topo'){
 
 						$conteudo_id = $conteudo_coluna['id'];
 						$conteudo_sessao = $conteudo_coluna['conteudo'];
@@ -113,7 +113,7 @@
 					<?php
 
 					$conteudo_coluna = $value_layout['coluna1'];
-					if($conteudo_coluna['tipo'] == 'topo'){
+					if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'topo'){
 
 						$conteudo_id = $conteudo_coluna['id'];
 						$conteudo_sessao = $conteudo_coluna['conteudo'];
@@ -127,7 +127,7 @@
 					<?php
 
 					$conteudo_coluna = $value_layout['coluna2'];
-					if($conteudo_coluna['tipo'] == 'topo'){
+					if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'topo'){
 
 						$conteudo_id = $conteudo_coluna['id'];
 						$conteudo_sessao = $conteudo_coluna['conteudo'];
@@ -146,7 +146,7 @@
 					<?php
 
 					$conteudo_coluna = $value_layout['coluna1'];
-					if($conteudo_coluna['tipo'] == 'topo'){
+					if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'topo'){
 
 						$conteudo_id = $conteudo_coluna['id'];
 						$conteudo_sessao = $conteudo_coluna['conteudo'];
@@ -160,7 +160,7 @@
 					<?php
 
 					$conteudo_coluna = $value_layout['coluna2'];
-					if($conteudo_coluna['tipo'] == 'topo'){
+					if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'topo'){
 
 						$conteudo_id = $conteudo_coluna['id'];
 						$conteudo_sessao = $conteudo_coluna['conteudo'];
@@ -183,7 +183,7 @@
 					<?php
 
 					$conteudo_coluna = $value_layout['coluna1'];
-					if($conteudo_coluna['tipo'] == 'topo'){
+					if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'topo'){
 
 						$conteudo_id = $conteudo_coluna['id'];
 						$conteudo_sessao = $conteudo_coluna['conteudo'];
@@ -197,7 +197,7 @@
 					<?php
 
 					$conteudo_coluna = $value_layout['coluna2'];
-					if($conteudo_coluna['tipo'] == 'topo'){
+					if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'topo'){
 
 						$conteudo_id = $conteudo_coluna['id'];
 						$conteudo_sessao = $conteudo_coluna['conteudo'];
@@ -211,7 +211,7 @@
 					<?php
 
 					$conteudo_coluna = $value_layout['coluna3'];
-					if($conteudo_coluna['tipo'] == 'topo'){
+					if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'topo'){
 
 						$conteudo_id = $conteudo_coluna['id'];
 						$conteudo_sessao = $conteudo_coluna['conteudo'];
@@ -232,7 +232,7 @@
 					<?php
 
 					$conteudo_coluna = $value_layout['coluna1'];
-					if($conteudo_coluna['tipo'] == 'topo'){
+					if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'topo'){
 
 						$conteudo_id = $conteudo_coluna['id'];
 						$conteudo_sessao = $conteudo_coluna['conteudo'];
@@ -246,7 +246,7 @@
 					<?php
 
 					$conteudo_coluna = $value_layout['coluna2'];
-					if($conteudo_coluna['tipo'] == 'topo'){
+					if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'topo'){
 
 						$conteudo_id = $conteudo_coluna['id'];
 						$conteudo_sessao = $conteudo_coluna['conteudo'];
@@ -260,7 +260,7 @@
 					<?php
 
 					$conteudo_coluna = $value_layout['coluna3'];
-					if($conteudo_coluna['tipo'] == 'topo'){
+					if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'topo'){
 
 						$conteudo_id = $conteudo_coluna['id'];
 						$conteudo_sessao = $conteudo_coluna['conteudo'];
@@ -281,7 +281,7 @@
 					<?php
 
 					$conteudo_coluna = $value_layout['coluna1'];
-					if($conteudo_coluna['tipo'] == 'topo'){
+					if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'topo'){
 
 						$conteudo_id = $conteudo_coluna['id'];
 						$conteudo_sessao = $conteudo_coluna['conteudo'];
@@ -295,7 +295,7 @@
 					<?php
 
 					$conteudo_coluna = $value_layout['coluna2'];
-					if($conteudo_coluna['tipo'] == 'topo'){
+					if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'topo'){
 
 						$conteudo_id = $conteudo_coluna['id'];
 						$conteudo_sessao = $conteudo_coluna['conteudo'];
@@ -309,7 +309,7 @@
 					<?php
 
 					$conteudo_coluna = $value_layout['coluna3'];
-					if($conteudo_coluna['tipo'] == 'topo'){
+					if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'topo'){
 
 						$conteudo_id = $conteudo_coluna['id'];
 						$conteudo_sessao = $conteudo_coluna['conteudo'];
@@ -329,7 +329,7 @@
 					<?php
 
 					$conteudo_coluna = $value_layout['coluna1'];
-					if($conteudo_coluna['tipo'] == 'topo'){
+					if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'topo'){
 
 						$conteudo_id = $conteudo_coluna['id'];
 						$conteudo_sessao = $conteudo_coluna['conteudo'];
@@ -343,7 +343,7 @@
 					<?php
 
 					$conteudo_coluna = $value_layout['coluna2'];
-					if($conteudo_coluna['tipo'] == 'topo'){
+					if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'topo'){
 
 						$conteudo_id = $conteudo_coluna['id'];
 						$conteudo_sessao = $conteudo_coluna['conteudo'];
@@ -357,7 +357,7 @@
 					<?php
 
 					$conteudo_coluna = $value_layout['coluna3'];
-					if($conteudo_coluna['tipo'] == 'topo'){
+					if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'topo'){
 
 						$conteudo_id = $conteudo_coluna['id'];
 						$conteudo_sessao = $conteudo_coluna['conteudo'];
@@ -381,7 +381,7 @@
 					<?php
 
 					$conteudo_coluna = $value_layout['coluna1'];
-					if($conteudo_coluna['tipo'] == 'topo'){
+					if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'topo'){
 
 						$conteudo_id = $conteudo_coluna['id'];
 						$conteudo_sessao = $conteudo_coluna['conteudo'];
@@ -395,7 +395,7 @@
 					<?php
 
 					$conteudo_coluna = $value_layout['coluna2'];
-					if($conteudo_coluna['tipo'] == 'topo'){
+					if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'topo'){
 
 						$conteudo_id = $conteudo_coluna['id'];
 						$conteudo_sessao = $conteudo_coluna['conteudo'];
@@ -409,7 +409,7 @@
 					<?php
 
 					$conteudo_coluna = $value_layout['coluna3'];
-					if($conteudo_coluna['tipo'] == 'topo'){
+					if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'topo'){
 
 						$conteudo_id = $conteudo_coluna['id'];
 						$conteudo_sessao = $conteudo_coluna['conteudo'];
@@ -423,7 +423,7 @@
 					<?php
 
 					$conteudo_coluna = $value_layout['coluna4'];
-					if($conteudo_coluna['tipo'] == 'topo'){
+					if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'topo'){
 
 						$conteudo_id = $conteudo_coluna['id'];
 						$conteudo_sessao = $conteudo_coluna['conteudo'];
@@ -444,7 +444,7 @@
 					<?php
 
 					$conteudo_coluna = $value_layout['coluna1'];
-					if($conteudo_coluna['tipo'] == 'topo'){
+					if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'topo'){
 
 						$conteudo_id = $conteudo_coluna['id'];
 						$conteudo_sessao = $conteudo_coluna['conteudo'];
@@ -458,7 +458,7 @@
 					<?php
 
 					$conteudo_coluna = $value_layout['coluna2'];
-					if($conteudo_coluna['tipo'] == 'topo'){
+					if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'topo'){
 
 						$conteudo_id = $conteudo_coluna['id'];
 						$conteudo_sessao = $conteudo_coluna['conteudo'];
@@ -472,7 +472,7 @@
 					<?php
 
 					$conteudo_coluna = $value_layout['coluna3'];
-					if($conteudo_coluna['tipo'] == 'topo'){
+					if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'topo'){
 
 						$conteudo_id = $conteudo_coluna['id'];
 						$conteudo_sessao = $conteudo_coluna['conteudo'];
@@ -486,7 +486,7 @@
 					<?php
 
 					$conteudo_coluna = $value_layout['coluna4'];
-					if($conteudo_coluna['tipo'] == 'topo'){
+					if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'topo'){
 
 						$conteudo_id = $conteudo_coluna['id'];
 						$conteudo_sessao = $conteudo_coluna['conteudo'];
@@ -506,7 +506,7 @@
 					<?php
 
 					$conteudo_coluna = $value_layout['coluna1'];
-					if($conteudo_coluna['tipo'] == 'topo'){
+					if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'topo'){
 
 						$conteudo_id = $conteudo_coluna['id'];
 						$conteudo_sessao = $conteudo_coluna['conteudo'];
@@ -520,7 +520,7 @@
 					<?php
 
 					$conteudo_coluna = $value_layout['coluna2'];
-					if($conteudo_coluna['tipo'] == 'topo'){
+					if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'topo'){
 
 						$conteudo_id = $conteudo_coluna['id'];
 						$conteudo_sessao = $conteudo_coluna['conteudo'];
@@ -534,7 +534,7 @@
 					<?php
 
 					$conteudo_coluna = $value_layout['coluna3'];
-					if($conteudo_coluna['tipo'] == 'topo'){
+					if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'topo'){
 
 						$conteudo_id = $conteudo_coluna['id'];
 						$conteudo_sessao = $conteudo_coluna['conteudo'];
@@ -548,7 +548,7 @@
 					<?php
 
 					$conteudo_coluna = $value_layout['coluna4'];
-					if($conteudo_coluna['tipo'] == 'topo'){
+					if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'topo'){
 
 						$conteudo_id = $conteudo_coluna['id'];
 						$conteudo_sessao = $conteudo_coluna['conteudo'];
@@ -571,7 +571,7 @@
 				<?php
 
 				$conteudo_coluna = $value_layout['coluna1'];
-				if($conteudo_coluna['tipo'] == 'topo'){
+				if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'topo'){
 
 					$conteudo_id = $conteudo_coluna['id'];
 					$conteudo_sessao = $conteudo_coluna['conteudo'];
@@ -585,7 +585,7 @@
 				<?php
 
 				$conteudo_coluna = $value_layout['coluna2'];
-				if($conteudo_coluna['tipo'] == 'topo'){
+				if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'topo'){
 
 					$conteudo_id = $conteudo_coluna['id'];
 					$conteudo_sessao = $conteudo_coluna['conteudo'];
@@ -599,7 +599,7 @@
 				<?php
 
 				$conteudo_coluna = $value_layout['coluna3'];
-				if($conteudo_coluna['tipo'] == 'topo'){
+				if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'topo'){
 
 					$conteudo_id = $conteudo_coluna['id'];
 					$conteudo_sessao = $conteudo_coluna['conteudo'];
@@ -613,7 +613,7 @@
 				<?php
 
 				$conteudo_coluna = $value_layout['coluna4'];
-				if($conteudo_coluna['tipo'] == 'topo'){
+				if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'topo'){
 
 					$conteudo_id = $conteudo_coluna['id'];
 					$conteudo_sessao = $conteudo_coluna['conteudo'];
@@ -627,7 +627,7 @@
 				<?php
 
 				$conteudo_coluna = $value_layout['coluna5'];
-				if($conteudo_coluna['tipo'] == 'topo'){
+				if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'topo'){
 
 					$conteudo_id = $conteudo_coluna['id'];
 					$conteudo_sessao = $conteudo_coluna['conteudo'];
@@ -641,7 +641,7 @@
 				<?php
 
 				$conteudo_coluna = $value_layout['coluna6'];
-				if($conteudo_coluna['tipo'] == 'topo'){
+				if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'topo'){
 
 					$conteudo_id = $conteudo_coluna['id'];
 					$conteudo_sessao = $conteudo_coluna['conteudo'];
@@ -748,7 +748,7 @@
 				<?php
 
 				$conteudo_coluna = $value_layout['coluna1'];
-				if($conteudo_coluna['tipo'] == 'rodape'){
+				if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'rodape'){
 
 					$conteudo_id = $conteudo_coluna['id'];
 					$conteudo_sessao = $conteudo_coluna['conteudo'];
@@ -770,7 +770,7 @@
 					<?php
 
 					$conteudo_coluna = $value_layout['coluna1'];
-					if($conteudo_coluna['tipo'] == 'rodape'){
+					if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'rodape'){
 
 						$conteudo_id = $conteudo_coluna['id'];
 						$conteudo_sessao = $conteudo_coluna['conteudo'];
@@ -784,7 +784,7 @@
 					<?php
 
 					$conteudo_coluna = $value_layout['coluna2'];
-					if($conteudo_coluna['tipo'] == 'rodape'){
+					if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'rodape'){
 
 						$conteudo_id = $conteudo_coluna['id'];
 						$conteudo_sessao = $conteudo_coluna['conteudo'];
@@ -804,7 +804,7 @@
 					<?php
 
 					$conteudo_coluna = $value_layout['coluna1'];
-					if($conteudo_coluna['tipo'] == 'rodape'){
+					if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'rodape'){
 
 						$conteudo_id = $conteudo_coluna['id'];
 						$conteudo_sessao = $conteudo_coluna['conteudo'];
@@ -818,7 +818,7 @@
 					<?php
 
 					$conteudo_coluna = $value_layout['coluna2'];
-					if($conteudo_coluna['tipo'] == 'rodape'){
+					if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'rodape'){
 
 						$conteudo_id = $conteudo_coluna['id'];
 						$conteudo_sessao = $conteudo_coluna['conteudo'];
@@ -837,7 +837,7 @@
 					<?php
 
 					$conteudo_coluna = $value_layout['coluna1'];
-					if($conteudo_coluna['tipo'] == 'rodape'){
+					if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'rodape'){
 
 						$conteudo_id = $conteudo_coluna['id'];
 						$conteudo_sessao = $conteudo_coluna['conteudo'];
@@ -851,7 +851,7 @@
 					<?php
 
 					$conteudo_coluna = $value_layout['coluna2'];
-					if($conteudo_coluna['tipo'] == 'rodape'){
+					if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'rodape'){
 
 						$conteudo_id = $conteudo_coluna['id'];
 						$conteudo_sessao = $conteudo_coluna['conteudo'];
@@ -874,7 +874,7 @@
 					<?php
 
 					$conteudo_coluna = $value_layout['coluna1'];
-					if($conteudo_coluna['tipo'] == 'rodape'){
+					if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'rodape'){
 
 						$conteudo_id = $conteudo_coluna['id'];
 						$conteudo_sessao = $conteudo_coluna['conteudo'];
@@ -888,7 +888,7 @@
 					<?php
 
 					$conteudo_coluna = $value_layout['coluna2'];
-					if($conteudo_coluna['tipo'] == 'rodape'){
+					if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'rodape'){
 
 						$conteudo_id = $conteudo_coluna['id'];
 						$conteudo_sessao = $conteudo_coluna['conteudo'];
@@ -902,7 +902,7 @@
 					<?php
 
 					$conteudo_coluna = $value_layout['coluna3'];
-					if($conteudo_coluna['tipo'] == 'rodape'){
+					if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'rodape'){
 
 						$conteudo_id = $conteudo_coluna['id'];
 						$conteudo_sessao = $conteudo_coluna['conteudo'];
@@ -923,7 +923,7 @@
 					<?php
 
 					$conteudo_coluna = $value_layout['coluna1'];
-					if($conteudo_coluna['tipo'] == 'rodape'){
+					if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'rodape'){
 
 						$conteudo_id = $conteudo_coluna['id'];
 						$conteudo_sessao = $conteudo_coluna['conteudo'];
@@ -937,7 +937,7 @@
 					<?php
 
 					$conteudo_coluna = $value_layout['coluna2'];
-					if($conteudo_coluna['tipo'] == 'rodape'){
+					if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'rodape'){
 
 						$conteudo_id = $conteudo_coluna['id'];
 						$conteudo_sessao = $conteudo_coluna['conteudo'];
@@ -951,7 +951,7 @@
 					<?php
 
 					$conteudo_coluna = $value_layout['coluna3'];
-					if($conteudo_coluna['tipo'] == 'rodape'){
+					if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'rodape'){
 
 						$conteudo_id = $conteudo_coluna['id'];
 						$conteudo_sessao = $conteudo_coluna['conteudo'];
@@ -972,7 +972,7 @@
 					<?php
 
 					$conteudo_coluna = $value_layout['coluna1'];
-					if($conteudo_coluna['tipo'] == 'rodape'){
+					if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'rodape'){
 
 						$conteudo_id = $conteudo_coluna['id'];
 						$conteudo_sessao = $conteudo_coluna['conteudo'];
@@ -986,7 +986,7 @@
 					<?php
 
 					$conteudo_coluna = $value_layout['coluna2'];
-					if($conteudo_coluna['tipo'] == 'rodape'){
+					if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'rodape'){
 
 						$conteudo_id = $conteudo_coluna['id'];
 						$conteudo_sessao = $conteudo_coluna['conteudo'];
@@ -1000,7 +1000,7 @@
 					<?php
 
 					$conteudo_coluna = $value_layout['coluna3'];
-					if($conteudo_coluna['tipo'] == 'rodape'){
+					if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'rodape'){
 
 						$conteudo_id = $conteudo_coluna['id'];
 						$conteudo_sessao = $conteudo_coluna['conteudo'];
@@ -1020,7 +1020,7 @@
 					<?php
 
 					$conteudo_coluna = $value_layout['coluna1'];
-					if($conteudo_coluna['tipo'] == 'rodape'){
+					if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'rodape'){
 
 						$conteudo_id = $conteudo_coluna['id'];
 						$conteudo_sessao = $conteudo_coluna['conteudo'];
@@ -1034,7 +1034,7 @@
 					<?php
 
 					$conteudo_coluna = $value_layout['coluna2'];
-					if($conteudo_coluna['tipo'] == 'rodape'){
+					if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'rodape'){
 
 						$conteudo_id = $conteudo_coluna['id'];
 						$conteudo_sessao = $conteudo_coluna['conteudo'];
@@ -1048,7 +1048,7 @@
 					<?php
 
 					$conteudo_coluna = $value_layout['coluna3'];
-					if($conteudo_coluna['tipo'] == 'rodape'){
+					if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'rodape'){
 
 						$conteudo_id = $conteudo_coluna['id'];
 						$conteudo_sessao = $conteudo_coluna['conteudo'];
@@ -1072,7 +1072,7 @@
 					<?php
 
 					$conteudo_coluna = $value_layout['coluna1'];
-					if($conteudo_coluna['tipo'] == 'rodape'){
+					if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'rodape'){
 
 						$conteudo_id = $conteudo_coluna['id'];
 						$conteudo_sessao = $conteudo_coluna['conteudo'];
@@ -1086,7 +1086,7 @@
 					<?php
 
 					$conteudo_coluna = $value_layout['coluna2'];
-					if($conteudo_coluna['tipo'] == 'rodape'){
+					if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'rodape'){
 
 						$conteudo_id = $conteudo_coluna['id'];
 						$conteudo_sessao = $conteudo_coluna['conteudo'];
@@ -1100,7 +1100,7 @@
 					<?php
 
 					$conteudo_coluna = $value_layout['coluna3'];
-					if($conteudo_coluna['tipo'] == 'rodape'){
+					if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'rodape'){
 
 						$conteudo_id = $conteudo_coluna['id'];
 						$conteudo_sessao = $conteudo_coluna['conteudo'];
@@ -1114,7 +1114,7 @@
 					<?php
 
 					$conteudo_coluna = $value_layout['coluna4'];
-					if($conteudo_coluna['tipo'] == 'rodape'){
+					if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'rodape'){
 
 						$conteudo_id = $conteudo_coluna['id'];
 						$conteudo_sessao = $conteudo_coluna['conteudo'];
@@ -1135,7 +1135,7 @@
 					<?php
 
 					$conteudo_coluna = $value_layout['coluna1'];
-					if($conteudo_coluna['tipo'] == 'rodape'){
+					if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'rodape'){
 
 						$conteudo_id = $conteudo_coluna['id'];
 						$conteudo_sessao = $conteudo_coluna['conteudo'];
@@ -1149,7 +1149,7 @@
 					<?php
 
 					$conteudo_coluna = $value_layout['coluna2'];
-					if($conteudo_coluna['tipo'] == 'rodape'){
+					if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'rodape'){
 
 						$conteudo_id = $conteudo_coluna['id'];
 						$conteudo_sessao = $conteudo_coluna['conteudo'];
@@ -1163,7 +1163,7 @@
 					<?php
 
 					$conteudo_coluna = $value_layout['coluna3'];
-					if($conteudo_coluna['tipo'] == 'rodape'){
+					if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'rodape'){
 
 						$conteudo_id = $conteudo_coluna['id'];
 						$conteudo_sessao = $conteudo_coluna['conteudo'];
@@ -1177,7 +1177,7 @@
 					<?php
 
 					$conteudo_coluna = $value_layout['coluna4'];
-					if($conteudo_coluna['tipo'] == 'rodape'){
+					if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'rodape'){
 
 						$conteudo_id = $conteudo_coluna['id'];
 						$conteudo_sessao = $conteudo_coluna['conteudo'];
@@ -1197,7 +1197,7 @@
 					<?php
 
 					$conteudo_coluna = $value_layout['coluna1'];
-					if($conteudo_coluna['tipo'] == 'rodape'){
+					if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'rodape'){
 
 						$conteudo_id = $conteudo_coluna['id'];
 						$conteudo_sessao = $conteudo_coluna['conteudo'];
@@ -1211,7 +1211,7 @@
 					<?php
 
 					$conteudo_coluna = $value_layout['coluna2'];
-					if($conteudo_coluna['tipo'] == 'rodape'){
+					if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'rodape'){
 
 						$conteudo_id = $conteudo_coluna['id'];
 						$conteudo_sessao = $conteudo_coluna['conteudo'];
@@ -1225,7 +1225,7 @@
 					<?php
 
 					$conteudo_coluna = $value_layout['coluna3'];
-					if($conteudo_coluna['tipo'] == 'rodape'){
+					if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'rodape'){
 
 						$conteudo_id = $conteudo_coluna['id'];
 						$conteudo_sessao = $conteudo_coluna['conteudo'];
@@ -1239,7 +1239,7 @@
 					<?php
 
 					$conteudo_coluna = $value_layout['coluna4'];
-					if($conteudo_coluna['tipo'] == 'rodape'){
+					if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'rodape'){
 
 						$conteudo_id = $conteudo_coluna['id'];
 						$conteudo_sessao = $conteudo_coluna['conteudo'];
@@ -1262,7 +1262,7 @@
 				<?php
 
 				$conteudo_coluna = $value_layout['coluna1'];
-				if($conteudo_coluna['tipo'] == 'rodape'){
+				if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'rodape'){
 
 					$conteudo_id = $conteudo_coluna['id'];
 					$conteudo_sessao = $conteudo_coluna['conteudo'];
@@ -1276,7 +1276,7 @@
 				<?php
 
 				$conteudo_coluna = $value_layout['coluna2'];
-				if($conteudo_coluna['tipo'] == 'rodape'){
+				if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'rodape'){
 
 					$conteudo_id = $conteudo_coluna['id'];
 					$conteudo_sessao = $conteudo_coluna['conteudo'];
@@ -1290,7 +1290,7 @@
 				<?php
 
 				$conteudo_coluna = $value_layout['coluna3'];
-				if($conteudo_coluna['tipo'] == 'rodape'){
+				if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'rodape'){
 
 					$conteudo_id = $conteudo_coluna['id'];
 					$conteudo_sessao = $conteudo_coluna['conteudo'];
@@ -1304,7 +1304,7 @@
 				<?php
 
 				$conteudo_coluna = $value_layout['coluna4'];
-				if($conteudo_coluna['tipo'] == 'rodape'){
+				if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'rodape'){
 
 					$conteudo_id = $conteudo_coluna['id'];
 					$conteudo_sessao = $conteudo_coluna['conteudo'];
@@ -1318,7 +1318,7 @@
 				<?php
 
 				$conteudo_coluna = $value_layout['coluna5'];
-				if($conteudo_coluna['tipo'] == 'rodape'){
+				if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'rodape'){
 
 					$conteudo_id = $conteudo_coluna['id'];
 					$conteudo_sessao = $conteudo_coluna['conteudo'];
@@ -1332,7 +1332,7 @@
 				<?php
 
 				$conteudo_coluna = $value_layout['coluna6'];
-				if($conteudo_coluna['tipo'] == 'rodape'){
+				if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'rodape'){
 
 					$conteudo_id = $conteudo_coluna['id'];
 					$conteudo_sessao = $conteudo_coluna['conteudo'];
