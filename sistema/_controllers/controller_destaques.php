@@ -22,7 +22,7 @@ class destaques extends controller {
 		
 		$dados['grupos'] = $destaques->lista_grupos($grupo);
 		
-		if(!$grupo){
+		if(!$grupo && !empty($dados['grupos'])){
 			$grupo = $dados['grupos'][0]['codigo'];
 		}
 		$dados['grupo_selecionado'] = $grupo;
