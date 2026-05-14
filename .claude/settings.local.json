@@ -13,7 +13,13 @@
       "mcp__plugin_playwright_playwright__browser_take_screenshot",
       "mcp__plugin_playwright_playwright__browser_snapshot",
       "mcp__plugin_playwright_playwright__browser_handle_dialog",
-      "Bash(git commit *)"
+      "Bash(git commit *)",
+      "Bash(php -r ' *)",
+      "Bash(where php *)",
+      "Bash(where python *)",
+      "Bash(where python3 *)",
+      "Bash(python fix_index.py)",
+      "Bash(python -c ' *)"
     ]
   }
 }
