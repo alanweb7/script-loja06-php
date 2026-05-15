@@ -60,9 +60,10 @@
 				$conteudo_coluna = $value_layout['coluna1'];
 				if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'topo'){
 
-					$conteudo_id = $conteudo_coluna['id'];
-					$conteudo_sessao = $conteudo_coluna['conteudo'];
-					include 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+					$conteudo_id = $conteudo_coluna['id'] ?? '';
+					$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
+					$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+					if(file_exists($_arq)){ include $_arq; }
 
 				}
 
@@ -82,9 +83,10 @@
 					$conteudo_coluna = $value_layout['coluna1'];
 					if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'topo'){
 
-						$conteudo_id = $conteudo_coluna['id'];
-						$conteudo_sessao = $conteudo_coluna['conteudo'];
-						include 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+						$conteudo_id = $conteudo_coluna['id'] ?? '';
+						$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
+						$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+						if(file_exists($_arq)){ include $_arq; }
 
 					}
 
@@ -96,9 +98,10 @@
 					$conteudo_coluna = $value_layout['coluna2'];
 					if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'topo'){
 
-						$conteudo_id = $conteudo_coluna['id'];
-						$conteudo_sessao = $conteudo_coluna['conteudo'];
-						include 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+						$conteudo_id = $conteudo_coluna['id'] ?? '';
+						$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
+						$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+						if(file_exists($_arq)){ include $_arq; }
 
 					}
 
@@ -116,9 +119,10 @@
 					$conteudo_coluna = $value_layout['coluna1'];
 					if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'topo'){
 
-						$conteudo_id = $conteudo_coluna['id'];
-						$conteudo_sessao = $conteudo_coluna['conteudo'];
-						include 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+						$conteudo_id = $conteudo_coluna['id'] ?? '';
+						$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
+						$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+						if(file_exists($_arq)){ include $_arq; }
 
 					}
 
@@ -130,9 +134,10 @@
 					$conteudo_coluna = $value_layout['coluna2'];
 					if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'topo'){
 
-						$conteudo_id = $conteudo_coluna['id'];
-						$conteudo_sessao = $conteudo_coluna['conteudo'];
-						include 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+						$conteudo_id = $conteudo_coluna['id'] ?? '';
+						$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
+						$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+						if(file_exists($_arq)){ include $_arq; }
 
 					}
 
@@ -149,9 +154,10 @@
 					$conteudo_coluna = $value_layout['coluna1'];
 					if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'topo'){
 
-						$conteudo_id = $conteudo_coluna['id'];
-						$conteudo_sessao = $conteudo_coluna['conteudo'];
-						include 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+						$conteudo_id = $conteudo_coluna['id'] ?? '';
+						$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
+						$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+						if(file_exists($_arq)){ include $_arq; }
 
 					}
 
@@ -163,9 +169,10 @@
 					$conteudo_coluna = $value_layout['coluna2'];
 					if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'topo'){
 
-						$conteudo_id = $conteudo_coluna['id'];
-						$conteudo_sessao = $conteudo_coluna['conteudo'];
-						include 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+						$conteudo_id = $conteudo_coluna['id'] ?? '';
+						$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
+						$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+						if(file_exists($_arq)){ include $_arq; }
 
 					}
 
@@ -186,9 +193,10 @@
 					$conteudo_coluna = $value_layout['coluna1'];
 					if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'topo'){
 
-						$conteudo_id = $conteudo_coluna['id'];
-						$conteudo_sessao = $conteudo_coluna['conteudo'];
-						include 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+						$conteudo_id = $conteudo_coluna['id'] ?? '';
+						$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
+						$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+						if(file_exists($_arq)){ include $_arq; }
 
 					}
 
@@ -200,9 +208,10 @@
 					$conteudo_coluna = $value_layout['coluna2'];
 					if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'topo'){
 
-						$conteudo_id = $conteudo_coluna['id'];
-						$conteudo_sessao = $conteudo_coluna['conteudo'];
-						include 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+						$conteudo_id = $conteudo_coluna['id'] ?? '';
+						$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
+						$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+						if(file_exists($_arq)){ include $_arq; }
 
 					}
 
@@ -214,9 +223,10 @@
 					$conteudo_coluna = $value_layout['coluna3'];
 					if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'topo'){
 
-						$conteudo_id = $conteudo_coluna['id'];
-						$conteudo_sessao = $conteudo_coluna['conteudo'];
-						include 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+						$conteudo_id = $conteudo_coluna['id'] ?? '';
+						$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
+						$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+						if(file_exists($_arq)){ include $_arq; }
 
 					}
 
@@ -235,9 +245,10 @@
 					$conteudo_coluna = $value_layout['coluna1'];
 					if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'topo'){
 
-						$conteudo_id = $conteudo_coluna['id'];
-						$conteudo_sessao = $conteudo_coluna['conteudo'];
-						include 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+						$conteudo_id = $conteudo_coluna['id'] ?? '';
+						$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
+						$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+						if(file_exists($_arq)){ include $_arq; }
 
 					}
 
@@ -249,9 +260,10 @@
 					$conteudo_coluna = $value_layout['coluna2'];
 					if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'topo'){
 
-						$conteudo_id = $conteudo_coluna['id'];
-						$conteudo_sessao = $conteudo_coluna['conteudo'];
-						include 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+						$conteudo_id = $conteudo_coluna['id'] ?? '';
+						$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
+						$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+						if(file_exists($_arq)){ include $_arq; }
 
 					}
 
@@ -263,9 +275,10 @@
 					$conteudo_coluna = $value_layout['coluna3'];
 					if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'topo'){
 
-						$conteudo_id = $conteudo_coluna['id'];
-						$conteudo_sessao = $conteudo_coluna['conteudo'];
-						include 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+						$conteudo_id = $conteudo_coluna['id'] ?? '';
+						$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
+						$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+						if(file_exists($_arq)){ include $_arq; }
 
 					}
 
@@ -284,9 +297,10 @@
 					$conteudo_coluna = $value_layout['coluna1'];
 					if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'topo'){
 
-						$conteudo_id = $conteudo_coluna['id'];
-						$conteudo_sessao = $conteudo_coluna['conteudo'];
-						include 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+						$conteudo_id = $conteudo_coluna['id'] ?? '';
+						$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
+						$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+						if(file_exists($_arq)){ include $_arq; }
 
 					}
 
@@ -298,9 +312,10 @@
 					$conteudo_coluna = $value_layout['coluna2'];
 					if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'topo'){
 
-						$conteudo_id = $conteudo_coluna['id'];
-						$conteudo_sessao = $conteudo_coluna['conteudo'];
-						include 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+						$conteudo_id = $conteudo_coluna['id'] ?? '';
+						$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
+						$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+						if(file_exists($_arq)){ include $_arq; }
 
 					}
 
@@ -312,9 +327,10 @@
 					$conteudo_coluna = $value_layout['coluna3'];
 					if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'topo'){
 
-						$conteudo_id = $conteudo_coluna['id'];
-						$conteudo_sessao = $conteudo_coluna['conteudo'];
-						include 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+						$conteudo_id = $conteudo_coluna['id'] ?? '';
+						$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
+						$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+						if(file_exists($_arq)){ include $_arq; }
 
 					}
 
@@ -332,9 +348,10 @@
 					$conteudo_coluna = $value_layout['coluna1'];
 					if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'topo'){
 
-						$conteudo_id = $conteudo_coluna['id'];
-						$conteudo_sessao = $conteudo_coluna['conteudo'];
-						include 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+						$conteudo_id = $conteudo_coluna['id'] ?? '';
+						$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
+						$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+						if(file_exists($_arq)){ include $_arq; }
 
 					}
 
@@ -346,9 +363,10 @@
 					$conteudo_coluna = $value_layout['coluna2'];
 					if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'topo'){
 
-						$conteudo_id = $conteudo_coluna['id'];
-						$conteudo_sessao = $conteudo_coluna['conteudo'];
-						include 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+						$conteudo_id = $conteudo_coluna['id'] ?? '';
+						$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
+						$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+						if(file_exists($_arq)){ include $_arq; }
 
 					}
 
@@ -360,9 +378,10 @@
 					$conteudo_coluna = $value_layout['coluna3'];
 					if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'topo'){
 
-						$conteudo_id = $conteudo_coluna['id'];
-						$conteudo_sessao = $conteudo_coluna['conteudo'];
-						include 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+						$conteudo_id = $conteudo_coluna['id'] ?? '';
+						$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
+						$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+						if(file_exists($_arq)){ include $_arq; }
 
 					}
 
@@ -384,9 +403,10 @@
 					$conteudo_coluna = $value_layout['coluna1'];
 					if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'topo'){
 
-						$conteudo_id = $conteudo_coluna['id'];
-						$conteudo_sessao = $conteudo_coluna['conteudo'];
-						include 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+						$conteudo_id = $conteudo_coluna['id'] ?? '';
+						$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
+						$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+						if(file_exists($_arq)){ include $_arq; }
 
 					}
 
@@ -398,9 +418,10 @@
 					$conteudo_coluna = $value_layout['coluna2'];
 					if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'topo'){
 
-						$conteudo_id = $conteudo_coluna['id'];
-						$conteudo_sessao = $conteudo_coluna['conteudo'];
-						include 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+						$conteudo_id = $conteudo_coluna['id'] ?? '';
+						$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
+						$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+						if(file_exists($_arq)){ include $_arq; }
 
 					}
 
@@ -412,9 +433,10 @@
 					$conteudo_coluna = $value_layout['coluna3'];
 					if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'topo'){
 
-						$conteudo_id = $conteudo_coluna['id'];
-						$conteudo_sessao = $conteudo_coluna['conteudo'];
-						include 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+						$conteudo_id = $conteudo_coluna['id'] ?? '';
+						$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
+						$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+						if(file_exists($_arq)){ include $_arq; }
 
 					}
 
@@ -426,9 +448,10 @@
 					$conteudo_coluna = $value_layout['coluna4'];
 					if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'topo'){
 
-						$conteudo_id = $conteudo_coluna['id'];
-						$conteudo_sessao = $conteudo_coluna['conteudo'];
-						include 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+						$conteudo_id = $conteudo_coluna['id'] ?? '';
+						$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
+						$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+						if(file_exists($_arq)){ include $_arq; }
 
 					}
 
@@ -447,9 +470,10 @@
 					$conteudo_coluna = $value_layout['coluna1'];
 					if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'topo'){
 
-						$conteudo_id = $conteudo_coluna['id'];
-						$conteudo_sessao = $conteudo_coluna['conteudo'];
-						include 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+						$conteudo_id = $conteudo_coluna['id'] ?? '';
+						$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
+						$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+						if(file_exists($_arq)){ include $_arq; }
 
 					}
 
@@ -461,9 +485,10 @@
 					$conteudo_coluna = $value_layout['coluna2'];
 					if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'topo'){
 
-						$conteudo_id = $conteudo_coluna['id'];
-						$conteudo_sessao = $conteudo_coluna['conteudo'];
-						include 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+						$conteudo_id = $conteudo_coluna['id'] ?? '';
+						$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
+						$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+						if(file_exists($_arq)){ include $_arq; }
 
 					}
 
@@ -475,9 +500,10 @@
 					$conteudo_coluna = $value_layout['coluna3'];
 					if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'topo'){
 
-						$conteudo_id = $conteudo_coluna['id'];
-						$conteudo_sessao = $conteudo_coluna['conteudo'];
-						include 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+						$conteudo_id = $conteudo_coluna['id'] ?? '';
+						$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
+						$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+						if(file_exists($_arq)){ include $_arq; }
 
 					}
 
@@ -489,9 +515,10 @@
 					$conteudo_coluna = $value_layout['coluna4'];
 					if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'topo'){
 
-						$conteudo_id = $conteudo_coluna['id'];
-						$conteudo_sessao = $conteudo_coluna['conteudo'];
-						include 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+						$conteudo_id = $conteudo_coluna['id'] ?? '';
+						$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
+						$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+						if(file_exists($_arq)){ include $_arq; }
 
 					}
 
@@ -509,9 +536,10 @@
 					$conteudo_coluna = $value_layout['coluna1'];
 					if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'topo'){
 
-						$conteudo_id = $conteudo_coluna['id'];
-						$conteudo_sessao = $conteudo_coluna['conteudo'];
-						include 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+						$conteudo_id = $conteudo_coluna['id'] ?? '';
+						$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
+						$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+						if(file_exists($_arq)){ include $_arq; }
 
 					}
 
@@ -523,9 +551,10 @@
 					$conteudo_coluna = $value_layout['coluna2'];
 					if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'topo'){
 
-						$conteudo_id = $conteudo_coluna['id'];
-						$conteudo_sessao = $conteudo_coluna['conteudo'];
-						include 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+						$conteudo_id = $conteudo_coluna['id'] ?? '';
+						$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
+						$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+						if(file_exists($_arq)){ include $_arq; }
 
 					}
 
@@ -537,9 +566,10 @@
 					$conteudo_coluna = $value_layout['coluna3'];
 					if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'topo'){
 
-						$conteudo_id = $conteudo_coluna['id'];
-						$conteudo_sessao = $conteudo_coluna['conteudo'];
-						include 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+						$conteudo_id = $conteudo_coluna['id'] ?? '';
+						$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
+						$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+						if(file_exists($_arq)){ include $_arq; }
 
 					}
 
@@ -551,9 +581,10 @@
 					$conteudo_coluna = $value_layout['coluna4'];
 					if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'topo'){
 
-						$conteudo_id = $conteudo_coluna['id'];
-						$conteudo_sessao = $conteudo_coluna['conteudo'];
-						include 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+						$conteudo_id = $conteudo_coluna['id'] ?? '';
+						$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
+						$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+						if(file_exists($_arq)){ include $_arq; }
 
 					}
 
@@ -574,9 +605,10 @@
 				$conteudo_coluna = $value_layout['coluna1'];
 				if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'topo'){
 
-					$conteudo_id = $conteudo_coluna['id'];
-					$conteudo_sessao = $conteudo_coluna['conteudo'];
-					include 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+					$conteudo_id = $conteudo_coluna['id'] ?? '';
+					$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
+					$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+					if(file_exists($_arq)){ include $_arq; }
 
 				}
 
@@ -588,9 +620,10 @@
 				$conteudo_coluna = $value_layout['coluna2'];
 				if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'topo'){
 
-					$conteudo_id = $conteudo_coluna['id'];
-					$conteudo_sessao = $conteudo_coluna['conteudo'];
-					include 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+					$conteudo_id = $conteudo_coluna['id'] ?? '';
+					$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
+					$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+					if(file_exists($_arq)){ include $_arq; }
 
 				}
 
@@ -602,9 +635,10 @@
 				$conteudo_coluna = $value_layout['coluna3'];
 				if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'topo'){
 
-					$conteudo_id = $conteudo_coluna['id'];
-					$conteudo_sessao = $conteudo_coluna['conteudo'];
-					include 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+					$conteudo_id = $conteudo_coluna['id'] ?? '';
+					$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
+					$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+					if(file_exists($_arq)){ include $_arq; }
 
 				}
 
@@ -616,9 +650,10 @@
 				$conteudo_coluna = $value_layout['coluna4'];
 				if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'topo'){
 
-					$conteudo_id = $conteudo_coluna['id'];
-					$conteudo_sessao = $conteudo_coluna['conteudo'];
-					include 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+					$conteudo_id = $conteudo_coluna['id'] ?? '';
+					$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
+					$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+					if(file_exists($_arq)){ include $_arq; }
 
 				}
 
@@ -630,9 +665,10 @@
 				$conteudo_coluna = $value_layout['coluna5'];
 				if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'topo'){
 
-					$conteudo_id = $conteudo_coluna['id'];
-					$conteudo_sessao = $conteudo_coluna['conteudo'];
-					include 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+					$conteudo_id = $conteudo_coluna['id'] ?? '';
+					$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
+					$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+					if(file_exists($_arq)){ include $_arq; }
 
 				}
 
@@ -644,9 +680,10 @@
 				$conteudo_coluna = $value_layout['coluna6'];
 				if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'topo'){
 
-					$conteudo_id = $conteudo_coluna['id'];
-					$conteudo_sessao = $conteudo_coluna['conteudo'];
-					include 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+					$conteudo_id = $conteudo_coluna['id'] ?? '';
+					$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
+					$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+					if(file_exists($_arq)){ include $_arq; }
 
 				}
 
@@ -741,9 +778,10 @@
 				$conteudo_coluna = $value_layout['coluna1'];
 				if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'rodape'){
 
-					$conteudo_id = $conteudo_coluna['id'];
-					$conteudo_sessao = $conteudo_coluna['conteudo'];
-					include 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+					$conteudo_id = $conteudo_coluna['id'] ?? '';
+					$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
+					$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+					if(file_exists($_arq)){ include $_arq; }
 
 				}
 
@@ -763,9 +801,10 @@
 					$conteudo_coluna = $value_layout['coluna1'];
 					if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'rodape'){
 
-						$conteudo_id = $conteudo_coluna['id'];
-						$conteudo_sessao = $conteudo_coluna['conteudo'];
-						include 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+						$conteudo_id = $conteudo_coluna['id'] ?? '';
+						$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
+						$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+						if(file_exists($_arq)){ include $_arq; }
 
 					}
 
@@ -777,9 +816,10 @@
 					$conteudo_coluna = $value_layout['coluna2'];
 					if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'rodape'){
 
-						$conteudo_id = $conteudo_coluna['id'];
-						$conteudo_sessao = $conteudo_coluna['conteudo'];
-						include 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+						$conteudo_id = $conteudo_coluna['id'] ?? '';
+						$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
+						$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+						if(file_exists($_arq)){ include $_arq; }
 
 					}
 
@@ -797,9 +837,10 @@
 					$conteudo_coluna = $value_layout['coluna1'];
 					if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'rodape'){
 
-						$conteudo_id = $conteudo_coluna['id'];
-						$conteudo_sessao = $conteudo_coluna['conteudo'];
-						include 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+						$conteudo_id = $conteudo_coluna['id'] ?? '';
+						$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
+						$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+						if(file_exists($_arq)){ include $_arq; }
 
 					}
 
@@ -811,9 +852,10 @@
 					$conteudo_coluna = $value_layout['coluna2'];
 					if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'rodape'){
 
-						$conteudo_id = $conteudo_coluna['id'];
-						$conteudo_sessao = $conteudo_coluna['conteudo'];
-						include 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+						$conteudo_id = $conteudo_coluna['id'] ?? '';
+						$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
+						$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+						if(file_exists($_arq)){ include $_arq; }
 
 					}
 
@@ -830,9 +872,10 @@
 					$conteudo_coluna = $value_layout['coluna1'];
 					if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'rodape'){
 
-						$conteudo_id = $conteudo_coluna['id'];
-						$conteudo_sessao = $conteudo_coluna['conteudo'];
-						include 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+						$conteudo_id = $conteudo_coluna['id'] ?? '';
+						$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
+						$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+						if(file_exists($_arq)){ include $_arq; }
 
 					}
 
@@ -844,9 +887,10 @@
 					$conteudo_coluna = $value_layout['coluna2'];
 					if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'rodape'){
 
-						$conteudo_id = $conteudo_coluna['id'];
-						$conteudo_sessao = $conteudo_coluna['conteudo'];
-						include 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+						$conteudo_id = $conteudo_coluna['id'] ?? '';
+						$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
+						$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+						if(file_exists($_arq)){ include $_arq; }
 
 					}
 
@@ -867,9 +911,10 @@
 					$conteudo_coluna = $value_layout['coluna1'];
 					if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'rodape'){
 
-						$conteudo_id = $conteudo_coluna['id'];
-						$conteudo_sessao = $conteudo_coluna['conteudo'];
-						include 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+						$conteudo_id = $conteudo_coluna['id'] ?? '';
+						$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
+						$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+						if(file_exists($_arq)){ include $_arq; }
 
 					}
 
@@ -881,9 +926,10 @@
 					$conteudo_coluna = $value_layout['coluna2'];
 					if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'rodape'){
 
-						$conteudo_id = $conteudo_coluna['id'];
-						$conteudo_sessao = $conteudo_coluna['conteudo'];
-						include 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+						$conteudo_id = $conteudo_coluna['id'] ?? '';
+						$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
+						$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+						if(file_exists($_arq)){ include $_arq; }
 
 					}
 
@@ -895,9 +941,10 @@
 					$conteudo_coluna = $value_layout['coluna3'];
 					if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'rodape'){
 
-						$conteudo_id = $conteudo_coluna['id'];
-						$conteudo_sessao = $conteudo_coluna['conteudo'];
-						include 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+						$conteudo_id = $conteudo_coluna['id'] ?? '';
+						$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
+						$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+						if(file_exists($_arq)){ include $_arq; }
 
 					}
 
@@ -916,9 +963,10 @@
 					$conteudo_coluna = $value_layout['coluna1'];
 					if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'rodape'){
 
-						$conteudo_id = $conteudo_coluna['id'];
-						$conteudo_sessao = $conteudo_coluna['conteudo'];
-						include 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+						$conteudo_id = $conteudo_coluna['id'] ?? '';
+						$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
+						$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+						if(file_exists($_arq)){ include $_arq; }
 
 					}
 
@@ -930,9 +978,10 @@
 					$conteudo_coluna = $value_layout['coluna2'];
 					if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'rodape'){
 
-						$conteudo_id = $conteudo_coluna['id'];
-						$conteudo_sessao = $conteudo_coluna['conteudo'];
-						include 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+						$conteudo_id = $conteudo_coluna['id'] ?? '';
+						$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
+						$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+						if(file_exists($_arq)){ include $_arq; }
 
 					}
 
@@ -944,9 +993,10 @@
 					$conteudo_coluna = $value_layout['coluna3'];
 					if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'rodape'){
 
-						$conteudo_id = $conteudo_coluna['id'];
-						$conteudo_sessao = $conteudo_coluna['conteudo'];
-						include 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+						$conteudo_id = $conteudo_coluna['id'] ?? '';
+						$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
+						$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+						if(file_exists($_arq)){ include $_arq; }
 
 					}
 
@@ -965,9 +1015,10 @@
 					$conteudo_coluna = $value_layout['coluna1'];
 					if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'rodape'){
 
-						$conteudo_id = $conteudo_coluna['id'];
-						$conteudo_sessao = $conteudo_coluna['conteudo'];
-						include 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+						$conteudo_id = $conteudo_coluna['id'] ?? '';
+						$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
+						$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+						if(file_exists($_arq)){ include $_arq; }
 
 					}
 
@@ -979,9 +1030,10 @@
 					$conteudo_coluna = $value_layout['coluna2'];
 					if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'rodape'){
 
-						$conteudo_id = $conteudo_coluna['id'];
-						$conteudo_sessao = $conteudo_coluna['conteudo'];
-						include 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+						$conteudo_id = $conteudo_coluna['id'] ?? '';
+						$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
+						$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+						if(file_exists($_arq)){ include $_arq; }
 
 					}
 
@@ -993,9 +1045,10 @@
 					$conteudo_coluna = $value_layout['coluna3'];
 					if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'rodape'){
 
-						$conteudo_id = $conteudo_coluna['id'];
-						$conteudo_sessao = $conteudo_coluna['conteudo'];
-						include 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+						$conteudo_id = $conteudo_coluna['id'] ?? '';
+						$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
+						$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+						if(file_exists($_arq)){ include $_arq; }
 
 					}
 
@@ -1013,9 +1066,10 @@
 					$conteudo_coluna = $value_layout['coluna1'];
 					if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'rodape'){
 
-						$conteudo_id = $conteudo_coluna['id'];
-						$conteudo_sessao = $conteudo_coluna['conteudo'];
-						include 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+						$conteudo_id = $conteudo_coluna['id'] ?? '';
+						$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
+						$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+						if(file_exists($_arq)){ include $_arq; }
 
 					}
 
@@ -1027,9 +1081,10 @@
 					$conteudo_coluna = $value_layout['coluna2'];
 					if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'rodape'){
 
-						$conteudo_id = $conteudo_coluna['id'];
-						$conteudo_sessao = $conteudo_coluna['conteudo'];
-						include 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+						$conteudo_id = $conteudo_coluna['id'] ?? '';
+						$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
+						$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+						if(file_exists($_arq)){ include $_arq; }
 
 					}
 
@@ -1041,9 +1096,10 @@
 					$conteudo_coluna = $value_layout['coluna3'];
 					if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'rodape'){
 
-						$conteudo_id = $conteudo_coluna['id'];
-						$conteudo_sessao = $conteudo_coluna['conteudo'];
-						include 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+						$conteudo_id = $conteudo_coluna['id'] ?? '';
+						$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
+						$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+						if(file_exists($_arq)){ include $_arq; }
 
 					}
 
@@ -1065,9 +1121,10 @@
 					$conteudo_coluna = $value_layout['coluna1'];
 					if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'rodape'){
 
-						$conteudo_id = $conteudo_coluna['id'];
-						$conteudo_sessao = $conteudo_coluna['conteudo'];
-						include 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+						$conteudo_id = $conteudo_coluna['id'] ?? '';
+						$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
+						$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+						if(file_exists($_arq)){ include $_arq; }
 
 					}
 
@@ -1079,9 +1136,10 @@
 					$conteudo_coluna = $value_layout['coluna2'];
 					if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'rodape'){
 
-						$conteudo_id = $conteudo_coluna['id'];
-						$conteudo_sessao = $conteudo_coluna['conteudo'];
-						include 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+						$conteudo_id = $conteudo_coluna['id'] ?? '';
+						$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
+						$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+						if(file_exists($_arq)){ include $_arq; }
 
 					}
 
@@ -1093,9 +1151,10 @@
 					$conteudo_coluna = $value_layout['coluna3'];
 					if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'rodape'){
 
-						$conteudo_id = $conteudo_coluna['id'];
-						$conteudo_sessao = $conteudo_coluna['conteudo'];
-						include 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+						$conteudo_id = $conteudo_coluna['id'] ?? '';
+						$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
+						$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+						if(file_exists($_arq)){ include $_arq; }
 
 					}
 
@@ -1107,9 +1166,10 @@
 					$conteudo_coluna = $value_layout['coluna4'];
 					if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'rodape'){
 
-						$conteudo_id = $conteudo_coluna['id'];
-						$conteudo_sessao = $conteudo_coluna['conteudo'];
-						include 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+						$conteudo_id = $conteudo_coluna['id'] ?? '';
+						$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
+						$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+						if(file_exists($_arq)){ include $_arq; }
 
 					}
 
@@ -1128,9 +1188,10 @@
 					$conteudo_coluna = $value_layout['coluna1'];
 					if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'rodape'){
 
-						$conteudo_id = $conteudo_coluna['id'];
-						$conteudo_sessao = $conteudo_coluna['conteudo'];
-						include 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+						$conteudo_id = $conteudo_coluna['id'] ?? '';
+						$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
+						$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+						if(file_exists($_arq)){ include $_arq; }
 
 					}
 
@@ -1142,9 +1203,10 @@
 					$conteudo_coluna = $value_layout['coluna2'];
 					if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'rodape'){
 
-						$conteudo_id = $conteudo_coluna['id'];
-						$conteudo_sessao = $conteudo_coluna['conteudo'];
-						include 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+						$conteudo_id = $conteudo_coluna['id'] ?? '';
+						$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
+						$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+						if(file_exists($_arq)){ include $_arq; }
 
 					}
 
@@ -1156,9 +1218,10 @@
 					$conteudo_coluna = $value_layout['coluna3'];
 					if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'rodape'){
 
-						$conteudo_id = $conteudo_coluna['id'];
-						$conteudo_sessao = $conteudo_coluna['conteudo'];
-						include 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+						$conteudo_id = $conteudo_coluna['id'] ?? '';
+						$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
+						$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+						if(file_exists($_arq)){ include $_arq; }
 
 					}
 
@@ -1170,9 +1233,10 @@
 					$conteudo_coluna = $value_layout['coluna4'];
 					if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'rodape'){
 
-						$conteudo_id = $conteudo_coluna['id'];
-						$conteudo_sessao = $conteudo_coluna['conteudo'];
-						include 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+						$conteudo_id = $conteudo_coluna['id'] ?? '';
+						$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
+						$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+						if(file_exists($_arq)){ include $_arq; }
 
 					}
 
@@ -1190,9 +1254,10 @@
 					$conteudo_coluna = $value_layout['coluna1'];
 					if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'rodape'){
 
-						$conteudo_id = $conteudo_coluna['id'];
-						$conteudo_sessao = $conteudo_coluna['conteudo'];
-						include 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+						$conteudo_id = $conteudo_coluna['id'] ?? '';
+						$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
+						$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+						if(file_exists($_arq)){ include $_arq; }
 
 					}
 
@@ -1204,9 +1269,10 @@
 					$conteudo_coluna = $value_layout['coluna2'];
 					if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'rodape'){
 
-						$conteudo_id = $conteudo_coluna['id'];
-						$conteudo_sessao = $conteudo_coluna['conteudo'];
-						include 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+						$conteudo_id = $conteudo_coluna['id'] ?? '';
+						$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
+						$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+						if(file_exists($_arq)){ include $_arq; }
 
 					}
 
@@ -1218,9 +1284,10 @@
 					$conteudo_coluna = $value_layout['coluna3'];
 					if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'rodape'){
 
-						$conteudo_id = $conteudo_coluna['id'];
-						$conteudo_sessao = $conteudo_coluna['conteudo'];
-						include 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+						$conteudo_id = $conteudo_coluna['id'] ?? '';
+						$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
+						$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+						if(file_exists($_arq)){ include $_arq; }
 
 					}
 
@@ -1232,9 +1299,10 @@
 					$conteudo_coluna = $value_layout['coluna4'];
 					if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'rodape'){
 
-						$conteudo_id = $conteudo_coluna['id'];
-						$conteudo_sessao = $conteudo_coluna['conteudo'];
-						include 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+						$conteudo_id = $conteudo_coluna['id'] ?? '';
+						$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
+						$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+						if(file_exists($_arq)){ include $_arq; }
 
 					}
 
@@ -1255,9 +1323,10 @@
 				$conteudo_coluna = $value_layout['coluna1'];
 				if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'rodape'){
 
-					$conteudo_id = $conteudo_coluna['id'];
-					$conteudo_sessao = $conteudo_coluna['conteudo'];
-					include 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+					$conteudo_id = $conteudo_coluna['id'] ?? '';
+					$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
+					$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+					if(file_exists($_arq)){ include $_arq; }
 
 				}
 
@@ -1269,9 +1338,10 @@
 				$conteudo_coluna = $value_layout['coluna2'];
 				if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'rodape'){
 
-					$conteudo_id = $conteudo_coluna['id'];
-					$conteudo_sessao = $conteudo_coluna['conteudo'];
-					include 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+					$conteudo_id = $conteudo_coluna['id'] ?? '';
+					$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
+					$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+					if(file_exists($_arq)){ include $_arq; }
 
 				}
 
@@ -1283,9 +1353,10 @@
 				$conteudo_coluna = $value_layout['coluna3'];
 				if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'rodape'){
 
-					$conteudo_id = $conteudo_coluna['id'];
-					$conteudo_sessao = $conteudo_coluna['conteudo'];
-					include 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+					$conteudo_id = $conteudo_coluna['id'] ?? '';
+					$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
+					$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+					if(file_exists($_arq)){ include $_arq; }
 
 				}
 
@@ -1297,9 +1368,10 @@
 				$conteudo_coluna = $value_layout['coluna4'];
 				if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'rodape'){
 
-					$conteudo_id = $conteudo_coluna['id'];
-					$conteudo_sessao = $conteudo_coluna['conteudo'];
-					include 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+					$conteudo_id = $conteudo_coluna['id'] ?? '';
+					$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
+					$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+					if(file_exists($_arq)){ include $_arq; }
 
 				}
 
@@ -1311,9 +1383,10 @@
 				$conteudo_coluna = $value_layout['coluna5'];
 				if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'rodape'){
 
-					$conteudo_id = $conteudo_coluna['id'];
-					$conteudo_sessao = $conteudo_coluna['conteudo'];
-					include 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+					$conteudo_id = $conteudo_coluna['id'] ?? '';
+					$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
+					$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+					if(file_exists($_arq)){ include $_arq; }
 
 				}
 
@@ -1325,9 +1398,10 @@
 				$conteudo_coluna = $value_layout['coluna6'];
 				if(!empty($conteudo_coluna['tipo']) && $conteudo_coluna['tipo'] == 'rodape'){
 
-					$conteudo_id = $conteudo_coluna['id'];
-					$conteudo_sessao = $conteudo_coluna['conteudo'];
-					include 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+					$conteudo_id = $conteudo_coluna['id'] ?? '';
+					$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
+					$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
+					if(file_exists($_arq)){ include $_arq; }
 
 				}
 
