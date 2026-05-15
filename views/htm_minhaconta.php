@@ -64,7 +64,7 @@
 					$conteudo_id = $conteudo_coluna['id'] ?? '';
 					$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
 					$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
-					if(file_exists($_arq)){ include $_arq; }
+					if(file_exists(dirname(__FILE__).'/'.$_arq)){ include $_arq; }
 
 				}
 
@@ -87,7 +87,7 @@
 						$conteudo_id = $conteudo_coluna['id'] ?? '';
 						$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
 						$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
-						if(file_exists($_arq)){ include $_arq; }
+						if(file_exists(dirname(__FILE__).'/'.$_arq)){ include $_arq; }
 
 					}
 
@@ -102,7 +102,7 @@
 						$conteudo_id = $conteudo_coluna['id'] ?? '';
 						$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
 						$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
-						if(file_exists($_arq)){ include $_arq; }
+						if(file_exists(dirname(__FILE__).'/'.$_arq)){ include $_arq; }
 
 					}
 
@@ -123,7 +123,7 @@
 						$conteudo_id = $conteudo_coluna['id'] ?? '';
 						$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
 						$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
-						if(file_exists($_arq)){ include $_arq; }
+						if(file_exists(dirname(__FILE__).'/'.$_arq)){ include $_arq; }
 
 					}
 
@@ -138,7 +138,7 @@
 						$conteudo_id = $conteudo_coluna['id'] ?? '';
 						$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
 						$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
-						if(file_exists($_arq)){ include $_arq; }
+						if(file_exists(dirname(__FILE__).'/'.$_arq)){ include $_arq; }
 
 					}
 
@@ -158,7 +158,7 @@
 						$conteudo_id = $conteudo_coluna['id'] ?? '';
 						$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
 						$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
-						if(file_exists($_arq)){ include $_arq; }
+						if(file_exists(dirname(__FILE__).'/'.$_arq)){ include $_arq; }
 
 					}
 
@@ -173,7 +173,7 @@
 						$conteudo_id = $conteudo_coluna['id'] ?? '';
 						$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
 						$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
-						if(file_exists($_arq)){ include $_arq; }
+						if(file_exists(dirname(__FILE__).'/'.$_arq)){ include $_arq; }
 
 					}
 
@@ -197,7 +197,7 @@
 						$conteudo_id = $conteudo_coluna['id'] ?? '';
 						$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
 						$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
-						if(file_exists($_arq)){ include $_arq; }
+						if(file_exists(dirname(__FILE__).'/'.$_arq)){ include $_arq; }
 
 					}
 
@@ -212,7 +212,7 @@
 						$conteudo_id = $conteudo_coluna['id'] ?? '';
 						$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
 						$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
-						if(file_exists($_arq)){ include $_arq; }
+						if(file_exists(dirname(__FILE__).'/'.$_arq)){ include $_arq; }
 
 					}
 
@@ -227,7 +227,7 @@
 						$conteudo_id = $conteudo_coluna['id'] ?? '';
 						$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
 						$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
-						if(file_exists($_arq)){ include $_arq; }
+						if(file_exists(dirname(__FILE__).'/'.$_arq)){ include $_arq; }
 
 					}
 
@@ -249,7 +249,7 @@
 						$conteudo_id = $conteudo_coluna['id'] ?? '';
 						$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
 						$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
-						if(file_exists($_arq)){ include $_arq; }
+						if(file_exists(dirname(__FILE__).'/'.$_arq)){ include $_arq; }
 
 					}
 
@@ -264,7 +264,7 @@
 						$conteudo_id = $conteudo_coluna['id'] ?? '';
 						$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
 						$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
-						if(file_exists($_arq)){ include $_arq; }
+						if(file_exists(dirname(__FILE__).'/'.$_arq)){ include $_arq; }
 
 					}
 
@@ -279,7 +279,7 @@
 						$conteudo_id = $conteudo_coluna['id'] ?? '';
 						$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
 						$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
-						if(file_exists($_arq)){ include $_arq; }
+						if(file_exists(dirname(__FILE__).'/'.$_arq)){ include $_arq; }
 
 					}
 
@@ -301,7 +301,7 @@
 						$conteudo_id = $conteudo_coluna['id'] ?? '';
 						$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
 						$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
-						if(file_exists($_arq)){ include $_arq; }
+						if(file_exists(dirname(__FILE__).'/'.$_arq)){ include $_arq; }
 
 					}
 
@@ -316,7 +316,7 @@
 						$conteudo_id = $conteudo_coluna['id'] ?? '';
 						$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
 						$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
-						if(file_exists($_arq)){ include $_arq; }
+						if(file_exists(dirname(__FILE__).'/'.$_arq)){ include $_arq; }
 
 					}
 
@@ -331,7 +331,7 @@
 						$conteudo_id = $conteudo_coluna['id'] ?? '';
 						$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
 						$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
-						if(file_exists($_arq)){ include $_arq; }
+						if(file_exists(dirname(__FILE__).'/'.$_arq)){ include $_arq; }
 
 					}
 
@@ -352,7 +352,7 @@
 						$conteudo_id = $conteudo_coluna['id'] ?? '';
 						$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
 						$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
-						if(file_exists($_arq)){ include $_arq; }
+						if(file_exists(dirname(__FILE__).'/'.$_arq)){ include $_arq; }
 
 					}
 
@@ -367,7 +367,7 @@
 						$conteudo_id = $conteudo_coluna['id'] ?? '';
 						$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
 						$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
-						if(file_exists($_arq)){ include $_arq; }
+						if(file_exists(dirname(__FILE__).'/'.$_arq)){ include $_arq; }
 
 					}
 
@@ -382,7 +382,7 @@
 						$conteudo_id = $conteudo_coluna['id'] ?? '';
 						$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
 						$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
-						if(file_exists($_arq)){ include $_arq; }
+						if(file_exists(dirname(__FILE__).'/'.$_arq)){ include $_arq; }
 
 					}
 
@@ -407,7 +407,7 @@
 						$conteudo_id = $conteudo_coluna['id'] ?? '';
 						$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
 						$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
-						if(file_exists($_arq)){ include $_arq; }
+						if(file_exists(dirname(__FILE__).'/'.$_arq)){ include $_arq; }
 
 					}
 
@@ -422,7 +422,7 @@
 						$conteudo_id = $conteudo_coluna['id'] ?? '';
 						$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
 						$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
-						if(file_exists($_arq)){ include $_arq; }
+						if(file_exists(dirname(__FILE__).'/'.$_arq)){ include $_arq; }
 
 					}
 
@@ -437,7 +437,7 @@
 						$conteudo_id = $conteudo_coluna['id'] ?? '';
 						$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
 						$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
-						if(file_exists($_arq)){ include $_arq; }
+						if(file_exists(dirname(__FILE__).'/'.$_arq)){ include $_arq; }
 
 					}
 
@@ -452,7 +452,7 @@
 						$conteudo_id = $conteudo_coluna['id'] ?? '';
 						$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
 						$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
-						if(file_exists($_arq)){ include $_arq; }
+						if(file_exists(dirname(__FILE__).'/'.$_arq)){ include $_arq; }
 
 					}
 
@@ -474,7 +474,7 @@
 						$conteudo_id = $conteudo_coluna['id'] ?? '';
 						$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
 						$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
-						if(file_exists($_arq)){ include $_arq; }
+						if(file_exists(dirname(__FILE__).'/'.$_arq)){ include $_arq; }
 
 					}
 
@@ -489,7 +489,7 @@
 						$conteudo_id = $conteudo_coluna['id'] ?? '';
 						$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
 						$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
-						if(file_exists($_arq)){ include $_arq; }
+						if(file_exists(dirname(__FILE__).'/'.$_arq)){ include $_arq; }
 
 					}
 
@@ -504,7 +504,7 @@
 						$conteudo_id = $conteudo_coluna['id'] ?? '';
 						$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
 						$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
-						if(file_exists($_arq)){ include $_arq; }
+						if(file_exists(dirname(__FILE__).'/'.$_arq)){ include $_arq; }
 
 					}
 
@@ -519,7 +519,7 @@
 						$conteudo_id = $conteudo_coluna['id'] ?? '';
 						$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
 						$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
-						if(file_exists($_arq)){ include $_arq; }
+						if(file_exists(dirname(__FILE__).'/'.$_arq)){ include $_arq; }
 
 					}
 
@@ -540,7 +540,7 @@
 						$conteudo_id = $conteudo_coluna['id'] ?? '';
 						$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
 						$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
-						if(file_exists($_arq)){ include $_arq; }
+						if(file_exists(dirname(__FILE__).'/'.$_arq)){ include $_arq; }
 
 					}
 
@@ -555,7 +555,7 @@
 						$conteudo_id = $conteudo_coluna['id'] ?? '';
 						$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
 						$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
-						if(file_exists($_arq)){ include $_arq; }
+						if(file_exists(dirname(__FILE__).'/'.$_arq)){ include $_arq; }
 
 					}
 
@@ -570,7 +570,7 @@
 						$conteudo_id = $conteudo_coluna['id'] ?? '';
 						$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
 						$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
-						if(file_exists($_arq)){ include $_arq; }
+						if(file_exists(dirname(__FILE__).'/'.$_arq)){ include $_arq; }
 
 					}
 
@@ -585,7 +585,7 @@
 						$conteudo_id = $conteudo_coluna['id'] ?? '';
 						$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
 						$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
-						if(file_exists($_arq)){ include $_arq; }
+						if(file_exists(dirname(__FILE__).'/'.$_arq)){ include $_arq; }
 
 					}
 
@@ -609,7 +609,7 @@
 					$conteudo_id = $conteudo_coluna['id'] ?? '';
 					$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
 					$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
-					if(file_exists($_arq)){ include $_arq; }
+					if(file_exists(dirname(__FILE__).'/'.$_arq)){ include $_arq; }
 
 				}
 
@@ -624,7 +624,7 @@
 					$conteudo_id = $conteudo_coluna['id'] ?? '';
 					$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
 					$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
-					if(file_exists($_arq)){ include $_arq; }
+					if(file_exists(dirname(__FILE__).'/'.$_arq)){ include $_arq; }
 
 				}
 
@@ -639,7 +639,7 @@
 					$conteudo_id = $conteudo_coluna['id'] ?? '';
 					$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
 					$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
-					if(file_exists($_arq)){ include $_arq; }
+					if(file_exists(dirname(__FILE__).'/'.$_arq)){ include $_arq; }
 
 				}
 
@@ -654,7 +654,7 @@
 					$conteudo_id = $conteudo_coluna['id'] ?? '';
 					$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
 					$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
-					if(file_exists($_arq)){ include $_arq; }
+					if(file_exists(dirname(__FILE__).'/'.$_arq)){ include $_arq; }
 
 				}
 
@@ -669,7 +669,7 @@
 					$conteudo_id = $conteudo_coluna['id'] ?? '';
 					$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
 					$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
-					if(file_exists($_arq)){ include $_arq; }
+					if(file_exists(dirname(__FILE__).'/'.$_arq)){ include $_arq; }
 
 				}
 
@@ -684,7 +684,7 @@
 					$conteudo_id = $conteudo_coluna['id'] ?? '';
 					$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
 					$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
-					if(file_exists($_arq)){ include $_arq; }
+					if(file_exists(dirname(__FILE__).'/'.$_arq)){ include $_arq; }
 
 				}
 
@@ -831,7 +831,7 @@
 					$conteudo_id = $conteudo_coluna['id'] ?? '';
 					$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
 					$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
-					if(file_exists($_arq)){ include $_arq; }
+					if(file_exists(dirname(__FILE__).'/'.$_arq)){ include $_arq; }
 
 				}
 
@@ -854,7 +854,7 @@
 						$conteudo_id = $conteudo_coluna['id'] ?? '';
 						$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
 						$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
-						if(file_exists($_arq)){ include $_arq; }
+						if(file_exists(dirname(__FILE__).'/'.$_arq)){ include $_arq; }
 
 					}
 
@@ -869,7 +869,7 @@
 						$conteudo_id = $conteudo_coluna['id'] ?? '';
 						$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
 						$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
-						if(file_exists($_arq)){ include $_arq; }
+						if(file_exists(dirname(__FILE__).'/'.$_arq)){ include $_arq; }
 
 					}
 
@@ -890,7 +890,7 @@
 						$conteudo_id = $conteudo_coluna['id'] ?? '';
 						$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
 						$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
-						if(file_exists($_arq)){ include $_arq; }
+						if(file_exists(dirname(__FILE__).'/'.$_arq)){ include $_arq; }
 
 					}
 
@@ -905,7 +905,7 @@
 						$conteudo_id = $conteudo_coluna['id'] ?? '';
 						$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
 						$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
-						if(file_exists($_arq)){ include $_arq; }
+						if(file_exists(dirname(__FILE__).'/'.$_arq)){ include $_arq; }
 
 					}
 
@@ -925,7 +925,7 @@
 						$conteudo_id = $conteudo_coluna['id'] ?? '';
 						$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
 						$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
-						if(file_exists($_arq)){ include $_arq; }
+						if(file_exists(dirname(__FILE__).'/'.$_arq)){ include $_arq; }
 
 					}
 
@@ -940,7 +940,7 @@
 						$conteudo_id = $conteudo_coluna['id'] ?? '';
 						$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
 						$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
-						if(file_exists($_arq)){ include $_arq; }
+						if(file_exists(dirname(__FILE__).'/'.$_arq)){ include $_arq; }
 
 					}
 
@@ -964,7 +964,7 @@
 						$conteudo_id = $conteudo_coluna['id'] ?? '';
 						$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
 						$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
-						if(file_exists($_arq)){ include $_arq; }
+						if(file_exists(dirname(__FILE__).'/'.$_arq)){ include $_arq; }
 
 					}
 
@@ -979,7 +979,7 @@
 						$conteudo_id = $conteudo_coluna['id'] ?? '';
 						$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
 						$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
-						if(file_exists($_arq)){ include $_arq; }
+						if(file_exists(dirname(__FILE__).'/'.$_arq)){ include $_arq; }
 
 					}
 
@@ -994,7 +994,7 @@
 						$conteudo_id = $conteudo_coluna['id'] ?? '';
 						$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
 						$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
-						if(file_exists($_arq)){ include $_arq; }
+						if(file_exists(dirname(__FILE__).'/'.$_arq)){ include $_arq; }
 
 					}
 
@@ -1016,7 +1016,7 @@
 						$conteudo_id = $conteudo_coluna['id'] ?? '';
 						$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
 						$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
-						if(file_exists($_arq)){ include $_arq; }
+						if(file_exists(dirname(__FILE__).'/'.$_arq)){ include $_arq; }
 
 					}
 
@@ -1031,7 +1031,7 @@
 						$conteudo_id = $conteudo_coluna['id'] ?? '';
 						$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
 						$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
-						if(file_exists($_arq)){ include $_arq; }
+						if(file_exists(dirname(__FILE__).'/'.$_arq)){ include $_arq; }
 
 					}
 
@@ -1046,7 +1046,7 @@
 						$conteudo_id = $conteudo_coluna['id'] ?? '';
 						$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
 						$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
-						if(file_exists($_arq)){ include $_arq; }
+						if(file_exists(dirname(__FILE__).'/'.$_arq)){ include $_arq; }
 
 					}
 
@@ -1068,7 +1068,7 @@
 						$conteudo_id = $conteudo_coluna['id'] ?? '';
 						$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
 						$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
-						if(file_exists($_arq)){ include $_arq; }
+						if(file_exists(dirname(__FILE__).'/'.$_arq)){ include $_arq; }
 
 					}
 
@@ -1083,7 +1083,7 @@
 						$conteudo_id = $conteudo_coluna['id'] ?? '';
 						$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
 						$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
-						if(file_exists($_arq)){ include $_arq; }
+						if(file_exists(dirname(__FILE__).'/'.$_arq)){ include $_arq; }
 
 					}
 
@@ -1098,7 +1098,7 @@
 						$conteudo_id = $conteudo_coluna['id'] ?? '';
 						$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
 						$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
-						if(file_exists($_arq)){ include $_arq; }
+						if(file_exists(dirname(__FILE__).'/'.$_arq)){ include $_arq; }
 
 					}
 
@@ -1119,7 +1119,7 @@
 						$conteudo_id = $conteudo_coluna['id'] ?? '';
 						$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
 						$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
-						if(file_exists($_arq)){ include $_arq; }
+						if(file_exists(dirname(__FILE__).'/'.$_arq)){ include $_arq; }
 
 					}
 
@@ -1134,7 +1134,7 @@
 						$conteudo_id = $conteudo_coluna['id'] ?? '';
 						$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
 						$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
-						if(file_exists($_arq)){ include $_arq; }
+						if(file_exists(dirname(__FILE__).'/'.$_arq)){ include $_arq; }
 
 					}
 
@@ -1149,7 +1149,7 @@
 						$conteudo_id = $conteudo_coluna['id'] ?? '';
 						$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
 						$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
-						if(file_exists($_arq)){ include $_arq; }
+						if(file_exists(dirname(__FILE__).'/'.$_arq)){ include $_arq; }
 
 					}
 
@@ -1174,7 +1174,7 @@
 						$conteudo_id = $conteudo_coluna['id'] ?? '';
 						$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
 						$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
-						if(file_exists($_arq)){ include $_arq; }
+						if(file_exists(dirname(__FILE__).'/'.$_arq)){ include $_arq; }
 
 					}
 
@@ -1189,7 +1189,7 @@
 						$conteudo_id = $conteudo_coluna['id'] ?? '';
 						$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
 						$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
-						if(file_exists($_arq)){ include $_arq; }
+						if(file_exists(dirname(__FILE__).'/'.$_arq)){ include $_arq; }
 
 					}
 
@@ -1204,7 +1204,7 @@
 						$conteudo_id = $conteudo_coluna['id'] ?? '';
 						$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
 						$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
-						if(file_exists($_arq)){ include $_arq; }
+						if(file_exists(dirname(__FILE__).'/'.$_arq)){ include $_arq; }
 
 					}
 
@@ -1219,7 +1219,7 @@
 						$conteudo_id = $conteudo_coluna['id'] ?? '';
 						$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
 						$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
-						if(file_exists($_arq)){ include $_arq; }
+						if(file_exists(dirname(__FILE__).'/'.$_arq)){ include $_arq; }
 
 					}
 
@@ -1241,7 +1241,7 @@
 						$conteudo_id = $conteudo_coluna['id'] ?? '';
 						$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
 						$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
-						if(file_exists($_arq)){ include $_arq; }
+						if(file_exists(dirname(__FILE__).'/'.$_arq)){ include $_arq; }
 
 					}
 
@@ -1256,7 +1256,7 @@
 						$conteudo_id = $conteudo_coluna['id'] ?? '';
 						$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
 						$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
-						if(file_exists($_arq)){ include $_arq; }
+						if(file_exists(dirname(__FILE__).'/'.$_arq)){ include $_arq; }
 
 					}
 
@@ -1271,7 +1271,7 @@
 						$conteudo_id = $conteudo_coluna['id'] ?? '';
 						$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
 						$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
-						if(file_exists($_arq)){ include $_arq; }
+						if(file_exists(dirname(__FILE__).'/'.$_arq)){ include $_arq; }
 
 					}
 
@@ -1286,7 +1286,7 @@
 						$conteudo_id = $conteudo_coluna['id'] ?? '';
 						$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
 						$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
-						if(file_exists($_arq)){ include $_arq; }
+						if(file_exists(dirname(__FILE__).'/'.$_arq)){ include $_arq; }
 
 					}
 
@@ -1307,7 +1307,7 @@
 						$conteudo_id = $conteudo_coluna['id'] ?? '';
 						$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
 						$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
-						if(file_exists($_arq)){ include $_arq; }
+						if(file_exists(dirname(__FILE__).'/'.$_arq)){ include $_arq; }
 
 					}
 
@@ -1322,7 +1322,7 @@
 						$conteudo_id = $conteudo_coluna['id'] ?? '';
 						$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
 						$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
-						if(file_exists($_arq)){ include $_arq; }
+						if(file_exists(dirname(__FILE__).'/'.$_arq)){ include $_arq; }
 
 					}
 
@@ -1337,7 +1337,7 @@
 						$conteudo_id = $conteudo_coluna['id'] ?? '';
 						$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
 						$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
-						if(file_exists($_arq)){ include $_arq; }
+						if(file_exists(dirname(__FILE__).'/'.$_arq)){ include $_arq; }
 
 					}
 
@@ -1352,7 +1352,7 @@
 						$conteudo_id = $conteudo_coluna['id'] ?? '';
 						$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
 						$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
-						if(file_exists($_arq)){ include $_arq; }
+						if(file_exists(dirname(__FILE__).'/'.$_arq)){ include $_arq; }
 
 					}
 
@@ -1376,7 +1376,7 @@
 					$conteudo_id = $conteudo_coluna['id'] ?? '';
 					$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
 					$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
-					if(file_exists($_arq)){ include $_arq; }
+					if(file_exists(dirname(__FILE__).'/'.$_arq)){ include $_arq; }
 
 				}
 
@@ -1391,7 +1391,7 @@
 					$conteudo_id = $conteudo_coluna['id'] ?? '';
 					$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
 					$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
-					if(file_exists($_arq)){ include $_arq; }
+					if(file_exists(dirname(__FILE__).'/'.$_arq)){ include $_arq; }
 
 				}
 
@@ -1406,7 +1406,7 @@
 					$conteudo_id = $conteudo_coluna['id'] ?? '';
 					$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
 					$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
-					if(file_exists($_arq)){ include $_arq; }
+					if(file_exists(dirname(__FILE__).'/'.$_arq)){ include $_arq; }
 
 				}
 
@@ -1421,7 +1421,7 @@
 					$conteudo_id = $conteudo_coluna['id'] ?? '';
 					$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
 					$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
-					if(file_exists($_arq)){ include $_arq; }
+					if(file_exists(dirname(__FILE__).'/'.$_arq)){ include $_arq; }
 
 				}
 
@@ -1436,7 +1436,7 @@
 					$conteudo_id = $conteudo_coluna['id'] ?? '';
 					$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
 					$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
-					if(file_exists($_arq)){ include $_arq; }
+					if(file_exists(dirname(__FILE__).'/'.$_arq)){ include $_arq; }
 
 				}
 
@@ -1451,7 +1451,7 @@
 					$conteudo_id = $conteudo_coluna['id'] ?? '';
 					$conteudo_sessao = $conteudo_coluna['conteudo'] ?? '';
 					$_arq = 'htm_conteudo_'.$conteudo_coluna['tipo'].'.php';
-					if(file_exists($_arq)){ include $_arq; }
+					if(file_exists(dirname(__FILE__).'/'.$_arq)){ include $_arq; }
 
 				}
 
